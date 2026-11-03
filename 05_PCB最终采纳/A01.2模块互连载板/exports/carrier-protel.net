@@ -1,0 +1,1516 @@
+PROTEL NETLIST 2.0
+[
+DESIGNATOR
+J1
+FOOTPRINT
+HDR-TH_40P-P2.54-V-R2-C20-S2.54-1
+PARTTYPE
+HEADER20X2
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+HEADER20X2
+PCB Layer
+Default
+Symbol
+HEADER20X2_C9900011065
+Designator
+J1
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+
+Manufacturer Part
+HEADER20X2
+Supplier
+LCSC
+Supplier Part
+C9900011065
+LCSC Part Name
+HEADER20X2
+Supplier Footprint
+HDR-TH_40P-P2.54
+JLCPCB Part Class
+Extended Part
+Datasheet
+
+Description
+
+Unique ID
+gge1
+Name
+HEADER20X2
+3D Model Title
+HDR-TH_40P-P2.54-V-R2-C20-S2.54-1
+
+*
+]
+[
+DESIGNATOR
+J2
+FOOTPRINT
+HDR-TH_2P-P2.54-V-M-1
+PARTTYPE
+HDR1X2
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+HDR1X2
+PCB Layer
+Default
+Symbol
+HDR1X2
+Designator
+J2
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+
+Manufacturer Part
+HDR1X2
+Supplier
+LCSC
+Supplier Part
+C9900014921
+LCSC Part Name
+HDR1X2
+Supplier Footprint
+排针
+JLCPCB Part Class
+Extended Part
+Datasheet
+
+Description
+
+Unique ID
+gge2
+Name
+HDR1X2
+3D Model Title
+HDR-M-2.54_1x2
+
+*
+]
+[
+DESIGNATOR
+C1
+FOOTPRINT
+CAP-TH_L4.0-W2.5-P5.00-D1.0
+PARTTYPE
+FG28X7R1H104KNT06_C342794
+DESCRIPTION
+容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+FG28X7R1H104KNT06_C342794
+PCB Layer
+Default
+Symbol
+FG28X7R1H104KNT06
+Designator
+C1
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Pin Spacing
+5mm
+Name
+100nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+TDK
+Manufacturer Part
+FG28X7R1H104KNT06
+Supplier
+LCSC
+Supplier Part
+C342794
+LCSC Part Name
+100nF ±10% 50V
+Supplier Footprint
+插件,P=5mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FG28X7R1H104KNT06/319644.html
+Value
+100nF
+Tolerance
+±10%
+Description
+容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Unique ID
+gge23
+3D Model Title
+CAP-TH_L4.0-W2.5-H5.5-P5.0
+
+*
+]
+[
+DESIGNATOR
+C2
+FOOTPRINT
+CAP-TH_BD5.0-P2.00-D0.5-FD
+PARTTYPE
+50ZLH10MEFC5X11
+DESCRIPTION
+容值:10uF;精度:±20%;额定电压:50V;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+50ZLH10MEFC5X11
+PCB Layer
+Default
+Symbol
+50ZLH10MEFC5X11
+Designator
+C2
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+rubycon(红宝石)
+Manufacturer Part
+50ZLH10MEFC5X11
+Supplier
+LCSC
+Supplier Part
+C1591331
+LCSC Part Name
+10uF ±20% 50V
+Supplier Footprint
+插件,D5xL11mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://atta.szlcsc.com/upload/public/pdf/source/20210602/82C93A4CE1B39FD446D4A832BEF3597D.pdf
+Value
+10uF
+Tolerance
+±20%
+Rated Voltage
+50V
+Lead Spacing
+2mm
+φD
+5mm
+L
+11mm
+Lifetime @ Temp
+6000hrs@105℃
+Operating Temperature
+-40℃~+105℃
+Description
+容值:10uF;精度:±20%;额定电压:50V;
+Unique ID
+gge4
+Name
+10uF
+3D Model Title
+CAP-TH_BD5.0-P2.00-D0.5-FD
+
+*
+]
+[
+DESIGNATOR
+J3
+FOOTPRINT
+HDR-TH_5P-P2.54-V-M
+PARTTYPE
+HDR1X5-M
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+HDR1X5-M
+PCB Layer
+Default
+Symbol
+HDR1X5-M
+Designator
+J3
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+
+Manufacturer Part
+HDR1X5-M
+Supplier
+LCSC
+Supplier Part
+C9900001260
+LCSC Part Name
+HDR1X5-M
+Supplier Footprint
+TH-5P
+JLCPCB Part Class
+Extended Part
+Datasheet
+
+Description
+
+Unique ID
+gge5
+Name
+HDR1X5-M
+3D Model Title
+HDR-TH_5P-P2.54-M-LI-1X5P
+
+*
+]
+[
+DESIGNATOR
+J4
+FOOTPRINT
+HDR-TH_10P-P2.54-V-M
+PARTTYPE
+MHSS-11mm10P
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+MHSS-11mm10P
+PCB Layer
+Default
+Name
+MHSS-11mm10P
+Designator
+J4
+Symbol
+MHSS-11MM10P
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+
+Manufacturer Part
+MHSS-11mm10P
+Supplier
+LCSC
+Supplier Part
+C9900307266
+LCSC Part Name
+MHSS-11mm10P
+Supplier Footprint
+HDR-TH_10P-P2.54-V-M
+JLCPCB Part Class
+
+Datasheet
+
+Description
+
+Unique ID
+gge6
+3D Model Title
+HDR2.54-M-LI-1X10P
+
+*
+]
+[
+DESIGNATOR
+J5
+FOOTPRINT
+HDR-TH_2P-P2.54-V-M-1
+PARTTYPE
+HDR1X2
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+HDR1X2
+PCB Layer
+Default
+Symbol
+HDR1X2
+Designator
+J5
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+
+Manufacturer Part
+HDR1X2
+Supplier
+LCSC
+Supplier Part
+C9900014921
+LCSC Part Name
+HDR1X2
+Supplier Footprint
+排针
+JLCPCB Part Class
+Extended Part
+Datasheet
+
+Description
+
+Unique ID
+gge7
+Name
+HDR1X2
+3D Model Title
+HDR-M-2.54_1x2
+
+*
+]
+[
+DESIGNATOR
+R1
+FOOTPRINT
+RES-TH_BD2.3-L6.5-P10.50-D0.5
+PARTTYPE
+MF1/4W-10KΩ±1% T
+DESCRIPTION
+电阻类型:金属膜电阻;阻值:10kΩ;精度:±1%;功率:250mW;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+MF1/4W-10KΩ±1% T
+PCB Layer
+Default
+Symbol
+MF1/4W-10KΩ±1% T52
+Designator
+R1
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+CCO(千志电子)
+Manufacturer Part
+MF1/4W-10KΩ±1% T
+Supplier
+LCSC
+Supplier Part
+C119347
+LCSC Part Name
+10kΩ ±1% 250mW 金属膜电阻 圆柱状直插
+Supplier Footprint
+插件,D2.3xL6.5mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://atta.szlcsc.com/upload/public/pdf/source/20190910/C427326_62A6D058BC0FF74963A2F22379CA06CE.pdf
+Type
+金属膜电阻
+Value
+10kΩ
+Tolerance
+±1%
+Voltage-Supply(Max)
+250V
+Power(Watts)
+250mW
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+电阻类型:金属膜电阻;阻值:10kΩ;精度:±1%;功率:250mW;温度系数:±100ppm/℃;
+Unique ID
+gge8
+Name
+10kΩ
+3D Model Title
+RES-TH_D2.3-L6.5-P10.50
+
+*
+]
+[
+DESIGNATOR
+C3
+FOOTPRINT
+CAP-TH_L4.0-W2.5-P5.00-D1.0
+PARTTYPE
+FG28X7R1H104KNT06_C342794
+DESCRIPTION
+容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+FG28X7R1H104KNT06_C342794
+PCB Layer
+Default
+Symbol
+FG28X7R1H104KNT06
+Designator
+C3
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Pin Spacing
+5mm
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+TDK
+Manufacturer Part
+FG28X7R1H104KNT06
+Supplier
+LCSC
+Supplier Part
+C342794
+LCSC Part Name
+100nF ±10% 50V
+Supplier Footprint
+插件,P=5mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FG28X7R1H104KNT06/319644.html
+Value
+100nF
+Tolerance
+±10%
+Description
+容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Unique ID
+gge24
+Name
+100nF
+3D Model Title
+CAP-TH_L4.0-W2.5-H5.5-P5.0
+
+*
+]
+[
+DESIGNATOR
+J6
+FOOTPRINT
+HDR-TH_5P-P2.54-V-M
+PARTTYPE
+HDR1X5-M
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+HDR1X5-M
+PCB Layer
+Default
+Symbol
+HDR1X5-M
+Designator
+J6
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+
+Manufacturer Part
+HDR1X5-M
+Supplier
+LCSC
+Supplier Part
+C9900001260
+LCSC Part Name
+HDR1X5-M
+Supplier Footprint
+TH-5P
+JLCPCB Part Class
+Extended Part
+Datasheet
+
+Description
+
+Unique ID
+gge10
+Name
+HDR1X5-M
+3D Model Title
+HDR-TH_5P-P2.54-M-LI-1X5P
+
+*
+]
+[
+DESIGNATOR
+J7
+FOOTPRINT
+HDR-TH_5P-P2.54-V-M
+PARTTYPE
+HDR1X5-M
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+HDR1X5-M
+PCB Layer
+Default
+Symbol
+HDR1X5-M
+Designator
+J7
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+
+Manufacturer Part
+HDR1X5-M
+Supplier
+LCSC
+Supplier Part
+C9900001260
+LCSC Part Name
+HDR1X5-M
+Supplier Footprint
+TH-5P
+JLCPCB Part Class
+Extended Part
+Datasheet
+
+Description
+
+Unique ID
+gge11
+Name
+HDR1X5-M
+3D Model Title
+HDR-TH_5P-P2.54-M-LI-1X5P
+
+*
+]
+[
+DESIGNATOR
+J8
+FOOTPRINT
+HDR-TH_5P-P2.54-V-M
+PARTTYPE
+HDR1X5-M
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+HDR1X5-M
+PCB Layer
+Default
+Symbol
+HDR1X5-M
+Designator
+J8
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+
+Manufacturer Part
+HDR1X5-M
+Supplier
+LCSC
+Supplier Part
+C9900001260
+LCSC Part Name
+HDR1X5-M
+Supplier Footprint
+TH-5P
+JLCPCB Part Class
+Extended Part
+Datasheet
+
+Description
+
+Unique ID
+gge12
+Name
+HDR1X5-M
+3D Model Title
+HDR-TH_5P-P2.54-M-LI-1X5P
+
+*
+]
+[
+DESIGNATOR
+J9
+FOOTPRINT
+HDR-TH_5P-P2.54-V-M
+PARTTYPE
+HDR1X5-M
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+HDR1X5-M
+PCB Layer
+Default
+Symbol
+HDR1X5-M
+Designator
+J9
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+
+Manufacturer Part
+HDR1X5-M
+Supplier
+LCSC
+Supplier Part
+C9900001260
+LCSC Part Name
+HDR1X5-M
+Supplier Footprint
+TH-5P
+JLCPCB Part Class
+Extended Part
+Datasheet
+
+Description
+
+Unique ID
+gge13
+Name
+HDR1X5-M
+3D Model Title
+HDR-TH_5P-P2.54-M-LI-1X5P
+
+*
+]
+[
+DESIGNATOR
+J10
+FOOTPRINT
+HDR-TH_10P-P2.54-V-M
+PARTTYPE
+MHSS-11mm10P
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+MHSS-11mm10P
+PCB Layer
+Default
+Name
+MHSS-11mm10P
+Designator
+J10
+Symbol
+MHSS-11MM10P
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+
+Manufacturer Part
+MHSS-11mm10P
+Supplier
+LCSC
+Supplier Part
+C9900307266
+LCSC Part Name
+MHSS-11mm10P
+Supplier Footprint
+HDR-TH_10P-P2.54-V-M
+JLCPCB Part Class
+
+Datasheet
+
+Description
+
+Unique ID
+gge14
+3D Model Title
+HDR2.54-M-LI-1X10P
+
+*
+]
+[
+DESIGNATOR
+J11
+FOOTPRINT
+HDR-TH_HDR-M_2.54_1X4P
+PARTTYPE
+HDR-M_2.54_1x4P_C9900236824
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+HDR-M_2.54_1x4P_C9900236824
+PCB Layer
+Default
+Symbol
+HDR-M_2.54_1X4P
+Designator
+J11
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+
+Manufacturer Part
+HDR-M_2.54_1x4P
+Supplier
+LCSC
+Supplier Part
+C9900236824
+LCSC Part Name
+HDR-M_2.54_1x4P
+Supplier Footprint
+HDR-TH_4P-P2.54-V-M
+JLCPCB Part Class
+Extended Part
+Datasheet
+
+Description
+
+Unique ID
+gge15
+Name
+HDR-M_2.54_1x4P
+
+*
+]
+[
+DESIGNATOR
+C4
+FOOTPRINT
+CAP-TH_L4.0-W2.5-P5.00-D1.0
+PARTTYPE
+FG28X7R1H104KNT06_C342794
+DESCRIPTION
+容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+FG28X7R1H104KNT06_C342794
+PCB Layer
+Default
+Symbol
+FG28X7R1H104KNT06
+Designator
+C4
+Unique ID
+gge25
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Pin Spacing
+5mm
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+TDK
+Manufacturer Part
+FG28X7R1H104KNT06
+Supplier
+LCSC
+Supplier Part
+C342794
+LCSC Part Name
+100nF ±10% 50V
+Supplier Footprint
+插件,P=5mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FG28X7R1H104KNT06/319644.html
+Value
+100nF
+Tolerance
+±10%
+Description
+容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Name
+100nF
+3D Model Title
+CAP-TH_L4.0-W2.5-H5.5-P5.0
+
+*
+]
+[
+DESIGNATOR
+J12
+FOOTPRINT
+HDR-TH_6P-P2.54-V-M-A
+PARTTYPE
+长排针,2.54mm,6p
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+长排针,2.54mm,6p
+PCB Layer
+Default
+Symbol
+长排针,2.54MM,6P
+Designator
+J12
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+
+Manufacturer Part
+长排针,2.54mm,6p
+Supplier
+LCSC
+Supplier Part
+C9900021383
+LCSC Part Name
+长排针,2.54mm,6p
+Supplier Footprint
+HDR-TH_6P-P2.54-V-M
+JLCPCB Part Class
+Extended Part
+Datasheet
+
+Description
+
+Unique ID
+gge17
+Name
+长排针,2.54mm,6p
+3D Model Title
+HDR-TH_6P-P2.54-V-M-A
+
+*
+]
+[
+DESIGNATOR
+J13
+FOOTPRINT
+HDR-TH_9P-P2.54-V-M
+PARTTYPE
+HDR2.54-LI-9P
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+HDR2.54-LI-9P
+PCB Layer
+Default
+Symbol
+HDR2.54-LI-9P
+Designator
+J13
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+
+Manufacturer Part
+HDR2.54-LI-9P
+Supplier
+LCSC
+Supplier Part
+C9900020142
+LCSC Part Name
+HDR2.54-LI-9P
+Supplier Footprint
+HDR-TH_9P-P2.54-V-M
+JLCPCB Part Class
+Extended Part
+Datasheet
+
+Description
+
+Unique ID
+gge18
+Name
+HDR2.54-LI-9P
+3D Model Title
+HDR-TH_9P-P2.54-M-LI-1X9P
+
+*
+]
+[
+DESIGNATOR
+C5
+FOOTPRINT
+CAP-TH_L4.0-W2.5-P5.00-D1.0
+PARTTYPE
+FG28X7R1H104KNT06_C342794
+DESCRIPTION
+容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+FG28X7R1H104KNT06_C342794
+PCB Layer
+Default
+Symbol
+FG28X7R1H104KNT06
+Designator
+C5
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Pin Spacing
+5mm
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+TDK
+Manufacturer Part
+FG28X7R1H104KNT06
+Supplier
+LCSC
+Supplier Part
+C342794
+LCSC Part Name
+100nF ±10% 50V
+Supplier Footprint
+插件,P=5mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/FG28X7R1H104KNT06/319644.html
+Value
+100nF
+Tolerance
+±10%
+Description
+容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;
+Unique ID
+gge26
+Name
+100nF
+3D Model Title
+CAP-TH_L4.0-W2.5-H5.5-P5.0
+
+*
+]
+[
+DESIGNATOR
+C6
+FOOTPRINT
+CAP-TH_BD5.0-P2.00-D0.5-FD
+PARTTYPE
+50ZLH10MEFC5X11
+DESCRIPTION
+容值:10uF;精度:±20%;额定电压:50V;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+50ZLH10MEFC5X11
+PCB Layer
+Default
+Symbol
+50ZLH10MEFC5X11
+Designator
+C6
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+rubycon(红宝石)
+Manufacturer Part
+50ZLH10MEFC5X11
+Supplier
+LCSC
+Supplier Part
+C1591331
+LCSC Part Name
+10uF ±20% 50V
+Supplier Footprint
+插件,D5xL11mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://atta.szlcsc.com/upload/public/pdf/source/20210602/82C93A4CE1B39FD446D4A832BEF3597D.pdf
+Value
+10uF
+Tolerance
+±20%
+Rated Voltage
+50V
+Lead Spacing
+2mm
+φD
+5mm
+L
+11mm
+Lifetime @ Temp
+6000hrs@105℃
+Operating Temperature
+-40℃~+105℃
+Description
+容值:10uF;精度:±20%;额定电压:50V;
+Unique ID
+gge20
+Name
+10uF
+3D Model Title
+CAP-TH_BD5.0-P2.00-D0.5-FD
+
+*
+]
+[
+DESIGNATOR
+J14
+FOOTPRINT
+HDR-TH_HDR-M_2.54_1X4P
+PARTTYPE
+HDR-M_2.54_1x4P_C9900236824
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+HDR-M_2.54_1x4P_C9900236824
+PCB Layer
+Default
+Symbol
+HDR-M_2.54_1X4P
+Designator
+J14
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+
+Manufacturer Part
+HDR-M_2.54_1x4P
+Supplier
+LCSC
+Supplier Part
+C9900236824
+LCSC Part Name
+HDR-M_2.54_1x4P
+Supplier Footprint
+HDR-TH_4P-P2.54-V-M
+JLCPCB Part Class
+Extended Part
+Datasheet
+
+Description
+
+Unique ID
+gge21
+Name
+HDR-M_2.54_1x4P
+
+*
+]
+[
+DESIGNATOR
+J15
+FOOTPRINT
+HDR-TH_HDR-M_2.54_1X4P
+PARTTYPE
+HDR-M_2.54_1x4P_C9900236824
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+HDR-M_2.54_1x4P_C9900236824
+PCB Layer
+Default
+Symbol
+HDR-M_2.54_1X4P
+Designator
+J15
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+
+Manufacturer Part
+HDR-M_2.54_1x4P
+Supplier
+LCSC
+Supplier Part
+C9900236824
+LCSC Part Name
+HDR-M_2.54_1x4P
+Supplier Footprint
+HDR-TH_4P-P2.54-V-M
+JLCPCB Part Class
+Extended Part
+Datasheet
+
+Description
+
+Unique ID
+gge22
+Name
+HDR-M_2.54_1x4P
+
+*
+]
+(
+SENS_SCL 
+J1-3 HEADER20X2-3 Passive 
+J3-3 HDR1X5-M-3 Passive 
+J4-3 MHSS-11mm10P-3 Passive 
+)
+(
+PCM_BCK 
+J1-5 HEADER20X2-5 Passive 
+J12-2 长排针,2.54mm,6p-2 Passive 
+)
+(
+PCM_DIN 
+J1-7 HEADER20X2-7 Passive 
+J12-3 长排针,2.54mm,6p-3 Passive 
+)
+(
+PWR_5V 
+J1-11 HEADER20X2-11 Passive 
+J12-6 长排针,2.54mm,6p-6 Passive 
+C5-1 FG28X7R1H104KNT06_C342794-1 Passive 
+C6-1 50ZLH10MEFC5X11-1 Passive 
+)
+(
+OLED_SCL 
+J1-13 HEADER20X2-13 Passive 
+J11-3 HDR-M_2.54_1x4P_C9900236824-3 Passive 
+)
+(
+ENC0_A 
+J1-15 HEADER20X2-15 Passive 
+J6-2 HDR1X5-M-2 Passive 
+)
+(
+ENC1_A 
+J1-17 HEADER20X2-17 Passive 
+J7-2 HDR1X5-M-2 Passive 
+)
+(
+ENC2_A 
+J1-19 HEADER20X2-19 Passive 
+J8-2 HDR1X5-M-2 Passive 
+)
+(
+ENC3_A 
+J1-21 HEADER20X2-21 Passive 
+J9-2 HDR1X5-M-2 Passive 
+)
+(
+PANEL_K0 
+J1-23 HEADER20X2-23 Passive 
+J10-3 MHSS-11mm10P-3 Passive 
+)
+(
+PANEL_K2 
+J1-25 HEADER20X2-25 Passive 
+J10-5 MHSS-11mm10P-5 Passive 
+)
+(
+PANEL_K4 
+J1-27 HEADER20X2-27 Passive 
+J10-7 MHSS-11mm10P-7 Passive 
+)
+(
+PANEL_K6 
+J1-31 HEADER20X2-31 Passive 
+J10-9 MHSS-11mm10P-9 Passive 
+)
+(
+LASER_RX0 
+J1-33 HEADER20X2-33 Passive 
+J15-3 HDR-M_2.54_1x4P_C9900236824-3 Passive 
+)
+(
+BLE_TX 
+J1-35 HEADER20X2-35 Passive 
+J14-3 HDR-M_2.54_1x4P_C9900236824-3 Passive 
+)
+(
+BLE_RX 
+J1-36 HEADER20X2-36 Passive 
+J14-4 HDR-M_2.54_1x4P_C9900236824-4 Passive 
+)
+(
+LASER_RX1 
+J1-34 HEADER20X2-34 Passive 
+J15-4 HDR-M_2.54_1x4P_C9900236824-4 Passive 
+)
+(
+PANEL_K7 
+J1-32 HEADER20X2-32 Passive 
+J10-10 MHSS-11mm10P-10 Passive 
+)
+(
+PANEL_K5 
+J1-28 HEADER20X2-28 Passive 
+J10-8 MHSS-11mm10P-8 Passive 
+)
+(
+PANEL_K3 
+J1-26 HEADER20X2-26 Passive 
+J10-6 MHSS-11mm10P-6 Passive 
+)
+(
+PANEL_K1 
+J1-24 HEADER20X2-24 Passive 
+J10-4 MHSS-11mm10P-4 Passive 
+)
+(
+ENC3_B 
+J1-22 HEADER20X2-22 Passive 
+J9-3 HDR1X5-M-3 Passive 
+)
+(
+ENC2_B 
+J1-20 HEADER20X2-20 Passive 
+J8-3 HDR1X5-M-3 Passive 
+)
+(
+ENC1_B 
+J1-18 HEADER20X2-18 Passive 
+J7-3 HDR1X5-M-3 Passive 
+)
+(
+ENC0_B 
+J1-16 HEADER20X2-16 Passive 
+J6-3 HDR1X5-M-3 Passive 
+)
+(
+OLED_SDA 
+J1-14 HEADER20X2-14 Passive 
+J11-4 HDR-M_2.54_1x4P_C9900236824-4 Passive 
+)
+(
+GND 
+J1-12 HEADER20X2-12 Passive 
+J2-2 HDR1X2-2 Passive 
+C1-2 FG28X7R1H104KNT06_C342794-2 Passive 
+C2-2 50ZLH10MEFC5X11-2 Passive 
+J3-1 HDR1X5-M-1 Passive 
+J4-2 MHSS-11mm10P-2 Passive 
+J4-5 MHSS-11mm10P-5 Passive 
+J4-7 MHSS-11mm10P-7 Passive 
+R1-2 MF1/4W-10KΩ±1% T-2 Passive 
+C3-2 FG28X7R1H104KNT06_C342794-2 Passive 
+J6-1 HDR1X5-M-1 Passive 
+J7-1 HDR1X5-M-1 Passive 
+J8-1 HDR1X5-M-1 Passive 
+J9-1 HDR1X5-M-1 Passive 
+J10-2 MHSS-11mm10P-2 Passive 
+J11-1 HDR-M_2.54_1x4P_C9900236824-1 Passive 
+C4-2 FG28X7R1H104KNT06_C342794-2 Passive 
+J12-1 长排针,2.54mm,6p-1 Passive 
+J12-5 长排针,2.54mm,6p-5 Passive 
+J13-2 HDR2.54-LI-9P-2 Passive 
+J13-4 HDR2.54-LI-9P-4 Passive 
+C5-2 FG28X7R1H104KNT06_C342794-2 Passive 
+C6-2 50ZLH10MEFC5X11-2 Passive 
+J14-2 HDR-M_2.54_1x4P_C9900236824-2 Passive 
+J15-2 HDR-M_2.54_1x4P_C9900236824-2 Passive 
+)
+(
+PCM_LRCK 
+J1-6 HEADER20X2-6 Passive 
+J12-4 长排针,2.54mm,6p-4 Passive 
+)
+(
+SENS_SDA 
+J1-4 HEADER20X2-4 Passive 
+J3-2 HDR1X5-M-2 Passive 
+J4-4 MHSS-11mm10P-4 Passive 
+)
+(
+PWR_3V3 
+J2-1 HDR1X2-1 Passive 
+C1-1 FG28X7R1H104KNT06_C342794-1 Passive 
+C2-1 50ZLH10MEFC5X11-1 Passive 
+J3-5 HDR1X5-M-5 Passive 
+J4-1 MHSS-11mm10P-1 Passive 
+J5-1 HDR1X2-1 Passive 
+C3-1 FG28X7R1H104KNT06_C342794-1 Passive 
+J6-5 HDR1X5-M-5 Passive 
+J7-5 HDR1X5-M-5 Passive 
+J8-5 HDR1X5-M-5 Passive 
+J9-5 HDR1X5-M-5 Passive 
+J10-1 MHSS-11mm10P-1 Passive 
+J11-2 HDR-M_2.54_1x4P_C9900236824-2 Passive 
+C4-1 FG28X7R1H104KNT06_C342794-1 Passive 
+J14-1 HDR-M_2.54_1x4P_C9900236824-1 Passive 
+J15-1 HDR-M_2.54_1x4P_C9900236824-1 Passive
+)
+(
+FSR_A1 
+J4-8 MHSS-11mm10P-8 Passive 
+J5-2 HDR1X2-2 Passive 
+R1-1 MF1/4W-10KΩ±1% T-1 Passive 
+)
+(
+PCM_A3V3 
+J13-1 HDR2.54-LI-9P-1 Passive 
+J13-3 HDR2.54-LI-9P-3 Passive 
+J13-5 HDR2.54-LI-9P-5 Passive 
+)

@@ -1,0 +1,2358 @@
+{
+    "version": "2.0.0",
+    "projectId": "070a72966d2eb75665ba493ebca80d18e6fc0335b774253091411139ef1ff98c",
+    "components": {
+        "gge1": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "43c55a8261b13714",
+                "Footprint": "3fbcdb78faa8c0ab",
+                "PCB Layer": "Default",
+                "Symbol": "55aa0833c6d0dd33",
+                "Designator": "J1",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I38",
+                "Manufacturer": "",
+                "Manufacturer Part": "HEADER20X2",
+                "Supplier": "LCSC",
+                "Supplier Part": "C9900011065",
+                "LCSC Part Name": "HEADER20X2",
+                "Supplier Footprint": "HDR-TH_40P-P2.54",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "",
+                "Description": "",
+                "Unique ID": "gge1",
+                "Name": "HEADER20X2",
+                "3D Model": "51afab49330c4861a9372ced43b74b14|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-TH_40P-P2.54-V-R2-C20-S2.54-1",
+                "3D Model Transform": "1999.996,196.85,0,0,0,0,0,0,-118.11",
+                "DeviceName": "HEADER20X2",
+                "FootprintName": "HDR-TH_40P-P2.54-V-R2-C20-S2.54-1"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "SENS_SCL",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "SENS_SDA",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "5",
+                    "number": "5",
+                    "net": "PCM_BCK",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                },
+                "6": {
+                    "name": "6",
+                    "number": "6",
+                    "net": "PCM_LRCK",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "6"
+                    }
+                },
+                "7": {
+                    "name": "7",
+                    "number": "7",
+                    "net": "PCM_DIN",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "7"
+                    }
+                },
+                "8": {
+                    "name": "8",
+                    "number": "8",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "8"
+                    }
+                },
+                "9": {
+                    "name": "9",
+                    "number": "9",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "9"
+                    }
+                },
+                "10": {
+                    "name": "10",
+                    "number": "10",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "10"
+                    }
+                },
+                "11": {
+                    "name": "11",
+                    "number": "11",
+                    "net": "PWR_5V",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "11"
+                    }
+                },
+                "12": {
+                    "name": "12",
+                    "number": "12",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "12"
+                    }
+                },
+                "13": {
+                    "name": "13",
+                    "number": "13",
+                    "net": "OLED_SCL",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "13"
+                    }
+                },
+                "14": {
+                    "name": "14",
+                    "number": "14",
+                    "net": "OLED_SDA",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "14"
+                    }
+                },
+                "15": {
+                    "name": "15",
+                    "number": "15",
+                    "net": "ENC0_A",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "15"
+                    }
+                },
+                "16": {
+                    "name": "16",
+                    "number": "16",
+                    "net": "ENC0_B",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "16"
+                    }
+                },
+                "17": {
+                    "name": "17",
+                    "number": "17",
+                    "net": "ENC1_A",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "17"
+                    }
+                },
+                "18": {
+                    "name": "18",
+                    "number": "18",
+                    "net": "ENC1_B",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "18"
+                    }
+                },
+                "19": {
+                    "name": "19",
+                    "number": "19",
+                    "net": "ENC2_A",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "19"
+                    }
+                },
+                "20": {
+                    "name": "20",
+                    "number": "20",
+                    "net": "ENC2_B",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "20"
+                    }
+                },
+                "21": {
+                    "name": "21",
+                    "number": "21",
+                    "net": "ENC3_A",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "21"
+                    }
+                },
+                "22": {
+                    "name": "22",
+                    "number": "22",
+                    "net": "ENC3_B",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "22"
+                    }
+                },
+                "23": {
+                    "name": "23",
+                    "number": "23",
+                    "net": "PANEL_K0",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "23"
+                    }
+                },
+                "24": {
+                    "name": "24",
+                    "number": "24",
+                    "net": "PANEL_K1",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "24"
+                    }
+                },
+                "25": {
+                    "name": "25",
+                    "number": "25",
+                    "net": "PANEL_K2",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "25"
+                    }
+                },
+                "26": {
+                    "name": "26",
+                    "number": "26",
+                    "net": "PANEL_K3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "26"
+                    }
+                },
+                "27": {
+                    "name": "27",
+                    "number": "27",
+                    "net": "PANEL_K4",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "27"
+                    }
+                },
+                "28": {
+                    "name": "28",
+                    "number": "28",
+                    "net": "PANEL_K5",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "28"
+                    }
+                },
+                "29": {
+                    "name": "29",
+                    "number": "29",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "29"
+                    }
+                },
+                "30": {
+                    "name": "30",
+                    "number": "30",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "30"
+                    }
+                },
+                "31": {
+                    "name": "31",
+                    "number": "31",
+                    "net": "PANEL_K6",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "31"
+                    }
+                },
+                "32": {
+                    "name": "32",
+                    "number": "32",
+                    "net": "PANEL_K7",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "32"
+                    }
+                },
+                "33": {
+                    "name": "33",
+                    "number": "33",
+                    "net": "LASER_RX0",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "33"
+                    }
+                },
+                "34": {
+                    "name": "34",
+                    "number": "34",
+                    "net": "LASER_RX1",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "34"
+                    }
+                },
+                "35": {
+                    "name": "35",
+                    "number": "35",
+                    "net": "BLE_TX",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "35"
+                    }
+                },
+                "36": {
+                    "name": "36",
+                    "number": "36",
+                    "net": "BLE_RX",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "36"
+                    }
+                },
+                "37": {
+                    "name": "37",
+                    "number": "37",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "37"
+                    }
+                },
+                "38": {
+                    "name": "38",
+                    "number": "38",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "38"
+                    }
+                },
+                "39": {
+                    "name": "39",
+                    "number": "39",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "39"
+                    }
+                },
+                "40": {
+                    "name": "40",
+                    "number": "40",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "40"
+                    }
+                }
+            }
+        },
+        "gge2": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "29bceaab522a509a",
+                "Footprint": "52063ced88704dc8",
+                "PCB Layer": "Default",
+                "Symbol": "e688abb03f6ae9fc",
+                "Designator": "J2",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I68",
+                "Manufacturer": "",
+                "Manufacturer Part": "HDR1X2",
+                "Supplier": "LCSC",
+                "Supplier Part": "C9900014921",
+                "LCSC Part Name": "HDR1X2",
+                "Supplier Footprint": "排针",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "",
+                "Description": "",
+                "Unique ID": "gge2",
+                "Name": "HDR1X2",
+                "3D Model": "79b2e9f2d70a4d68a1b7098f27c6d4c5|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-M-2.54_1x2",
+                "3D Model Transform": "200,100,0,0,0,0,0,0,-118.11",
+                "DeviceName": "HDR1X2",
+                "FootprintName": "HDR-TH_2P-P2.54-V-M-1"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "PWR_3V3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge23": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "5acfbbd8188c43b1",
+                "Footprint": "a5b3463529883940",
+                "PCB Layer": "Default",
+                "Symbol": "dc1b6fe9b64409b0",
+                "Designator": "C1",
+                "Voltage Rating": "50V",
+                "Temperature Coefficient": "X7R",
+                "Pin Spacing": "5mm",
+                "Name": "100nF",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I71",
+                "Manufacturer": "TDK",
+                "Manufacturer Part": "FG28X7R1H104KNT06",
+                "Supplier": "LCSC",
+                "Supplier Part": "C342794",
+                "LCSC Part Name": "100nF ±10% 50V",
+                "Supplier Footprint": "插件,P=5mm",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "https://item.szlcsc.com/datasheet/FG28X7R1H104KNT06/319644.html",
+                "Value": "100nF",
+                "Tolerance": "±10%",
+                "Description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+                "Unique ID": "gge23",
+                "3D Model": "9d0cdedf7a8f4b689dae7009bd25890c|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "CAP-TH_L4.0-W2.5-H5.5-P5.0",
+                "3D Model Transform": "212.598,98.425,0,0,0,0,-0.202,0.591,-137.795",
+                "DeviceName": "FG28X7R1H104KNT06_C342794",
+                "FootprintName": "CAP-TH_L4.0-W2.5-P5.00-D1.0"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "PWR_3V3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge4": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "58f4f13bf713cad2",
+                "Footprint": "87ba9ff13780c434",
+                "PCB Layer": "Default",
+                "Symbol": "b02e2909af2d5bb6",
+                "Designator": "C2",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I74",
+                "Manufacturer": "rubycon(红宝石)",
+                "Manufacturer Part": "50ZLH10MEFC5X11",
+                "Supplier": "LCSC",
+                "Supplier Part": "C1591331",
+                "LCSC Part Name": "10uF ±20% 50V",
+                "Supplier Footprint": "插件,D5xL11mm",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20210602/82C93A4CE1B39FD446D4A832BEF3597D.pdf",
+                "Value": "10uF",
+                "Tolerance": "±20%",
+                "Rated Voltage": "50V",
+                "Lead Spacing": "2mm",
+                "φD": "5mm",
+                "L": "11mm",
+                "Lifetime @ Temp": "6000hrs@105℃",
+                "Operating Temperature": "-40℃~+105℃",
+                "Description": "容值:10uF;精度:±20%;额定电压:50V;",
+                "Unique ID": "gge4",
+                "Name": "10uF",
+                "3D Model": "aba3b94bdab6406eb4f45c9c765c730e|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "CAP-TH_BD5.0-P2.00-D0.5-FD",
+                "3D Model Transform": "196.85,196.517,0,0,0,0,0,0,-196.85",
+                "DeviceName": "50ZLH10MEFC5X11",
+                "FootprintName": "CAP-TH_BD5.0-P2.00-D0.5-FD"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "PWR_3V3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge5": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "5dba8f0246ca3829",
+                "Footprint": "43e65f95a0b47942",
+                "PCB Layer": "Default",
+                "Symbol": "41eb93a58b06bbb2",
+                "Designator": "J3",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$2I20",
+                "Manufacturer": "",
+                "Manufacturer Part": "HDR1X5-M",
+                "Supplier": "LCSC",
+                "Supplier Part": "C9900001260",
+                "LCSC Part Name": "HDR1X5-M",
+                "Supplier Footprint": "TH-5P",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "",
+                "Description": "",
+                "Unique ID": "gge5",
+                "Name": "HDR1X5-M",
+                "3D Model": "47d466e4a34f4fc5bc626cf773a24dd5|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-TH_5P-P2.54-M-LI-1X5P",
+                "3D Model Transform": "499.999,100,0,0,0,0,0,0,-118.11",
+                "DeviceName": "HDR1X5-M",
+                "FootprintName": "HDR-TH_5P-P2.54-V-M"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "SENS_SDA",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "SENS_SCL",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "5",
+                    "number": "5",
+                    "net": "PWR_3V3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                }
+            }
+        },
+        "gge6": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "aec06cdd4b071ed2",
+                "Footprint": "5285c6faad201536",
+                "PCB Layer": "Default",
+                "Name": "MHSS-11mm10P",
+                "Designator": "J4",
+                "Symbol": "2a133fddae5f2cf6",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$2I25",
+                "Manufacturer": "",
+                "Manufacturer Part": "MHSS-11mm10P",
+                "Supplier": "LCSC",
+                "Supplier Part": "C9900307266",
+                "LCSC Part Name": "MHSS-11mm10P",
+                "Supplier Footprint": "HDR-TH_10P-P2.54-V-M",
+                "JLCPCB Part Class": "",
+                "Datasheet": "",
+                "Description": "",
+                "Unique ID": "gge6",
+                "3D Model": "10f3d1cea59e4bb4ba116af9f09c2b9b|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR2.54-M-LI-1X10P",
+                "3D Model Transform": "999.99796,100,0,0,0,0,0,0,-118.11",
+                "DeviceName": "MHSS-11mm10P",
+                "FootprintName": "HDR-TH_10P-P2.54-V-M"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "PWR_3V3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "SENS_SCL",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "SENS_SDA",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "5",
+                    "number": "5",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                },
+                "6": {
+                    "name": "6",
+                    "number": "6",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "6"
+                    }
+                },
+                "7": {
+                    "name": "7",
+                    "number": "7",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "7"
+                    }
+                },
+                "8": {
+                    "name": "8",
+                    "number": "8",
+                    "net": "FSR_A1",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "8"
+                    }
+                },
+                "9": {
+                    "name": "9",
+                    "number": "9",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "9"
+                    }
+                },
+                "10": {
+                    "name": "10",
+                    "number": "10",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "10"
+                    }
+                }
+            }
+        },
+        "gge7": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "29bceaab522a509a",
+                "Footprint": "52063ced88704dc8",
+                "PCB Layer": "Default",
+                "Symbol": "e688abb03f6ae9fc",
+                "Designator": "J5",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$2I33",
+                "Manufacturer": "",
+                "Manufacturer Part": "HDR1X2",
+                "Supplier": "LCSC",
+                "Supplier Part": "C9900014921",
+                "LCSC Part Name": "HDR1X2",
+                "Supplier Footprint": "排针",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "",
+                "Description": "",
+                "Unique ID": "gge7",
+                "Name": "HDR1X2",
+                "3D Model": "79b2e9f2d70a4d68a1b7098f27c6d4c5|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-M-2.54_1x2",
+                "3D Model Transform": "200,100,0,0,0,0,0,0,-118.11",
+                "DeviceName": "HDR1X2",
+                "FootprintName": "HDR-TH_2P-P2.54-V-M-1"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "PWR_3V3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "FSR_A1",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge8": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "baa1913c0ab3bb9a",
+                "Footprint": "ed7d17667611544f",
+                "PCB Layer": "Default",
+                "Symbol": "330217927cb24891",
+                "Designator": "R1",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$2I36",
+                "Manufacturer": "CCO(千志电子)",
+                "Manufacturer Part": "MF1/4W-10KΩ±1% T",
+                "Supplier": "LCSC",
+                "Supplier Part": "C119347",
+                "LCSC Part Name": "10kΩ ±1% 250mW 金属膜电阻 圆柱状直插",
+                "Supplier Footprint": "插件,D2.3xL6.5mm",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20190910/C427326_62A6D058BC0FF74963A2F22379CA06CE.pdf",
+                "Type": "金属膜电阻",
+                "Value": "10kΩ",
+                "Tolerance": "±1%",
+                "Voltage-Supply(Max)": "250V",
+                "Power(Watts)": "250mW",
+                "Temperature Coefficient": "±100ppm/℃",
+                "Operating Temperature": "-55℃~+155℃",
+                "Description": "电阻类型:金属膜电阻;阻值:10kΩ;精度:±1%;功率:250mW;温度系数:±100ppm/℃;",
+                "Unique ID": "gge8",
+                "Name": "10kΩ",
+                "3D Model": "8e6c7ee8323443d1ab8f0504b6353c8c|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "RES-TH_D2.3-L6.5-P10.50",
+                "3D Model Transform": "431.1015,91.3384,0,0,0,0,0.197,0,-137.795",
+                "DeviceName": "MF1/4W-10KΩ±1% T",
+                "FootprintName": "RES-TH_BD2.3-L6.5-P10.50-D0.5"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "FSR_A1",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge24": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "5acfbbd8188c43b1",
+                "Footprint": "a5b3463529883940",
+                "PCB Layer": "Default",
+                "Symbol": "dc1b6fe9b64409b0",
+                "Designator": "C3",
+                "Voltage Rating": "50V",
+                "Temperature Coefficient": "X7R",
+                "Pin Spacing": "5mm",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$2I39",
+                "Manufacturer": "TDK",
+                "Manufacturer Part": "FG28X7R1H104KNT06",
+                "Supplier": "LCSC",
+                "Supplier Part": "C342794",
+                "LCSC Part Name": "100nF ±10% 50V",
+                "Supplier Footprint": "插件,P=5mm",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "https://item.szlcsc.com/datasheet/FG28X7R1H104KNT06/319644.html",
+                "Value": "100nF",
+                "Tolerance": "±10%",
+                "Description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+                "Unique ID": "gge24",
+                "Name": "100nF",
+                "3D Model": "9d0cdedf7a8f4b689dae7009bd25890c|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "CAP-TH_L4.0-W2.5-H5.5-P5.0",
+                "3D Model Transform": "212.598,98.425,0,0,0,0,-0.202,0.591,-137.795",
+                "DeviceName": "FG28X7R1H104KNT06_C342794",
+                "FootprintName": "CAP-TH_L4.0-W2.5-P5.00-D1.0"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "PWR_3V3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge10": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "5dba8f0246ca3829",
+                "Footprint": "43e65f95a0b47942",
+                "PCB Layer": "Default",
+                "Symbol": "41eb93a58b06bbb2",
+                "Designator": "J6",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$3I37",
+                "Manufacturer": "",
+                "Manufacturer Part": "HDR1X5-M",
+                "Supplier": "LCSC",
+                "Supplier Part": "C9900001260",
+                "LCSC Part Name": "HDR1X5-M",
+                "Supplier Footprint": "TH-5P",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "",
+                "Description": "",
+                "Unique ID": "gge10",
+                "Name": "HDR1X5-M",
+                "3D Model": "47d466e4a34f4fc5bc626cf773a24dd5|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-TH_5P-P2.54-M-LI-1X5P",
+                "3D Model Transform": "499.999,100,0,0,0,0,0,0,-118.11",
+                "DeviceName": "HDR1X5-M",
+                "FootprintName": "HDR-TH_5P-P2.54-V-M"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "ENC0_A",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "ENC0_B",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "5",
+                    "number": "5",
+                    "net": "PWR_3V3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                }
+            }
+        },
+        "gge11": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "5dba8f0246ca3829",
+                "Footprint": "43e65f95a0b47942",
+                "PCB Layer": "Default",
+                "Symbol": "41eb93a58b06bbb2",
+                "Designator": "J7",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$3I42",
+                "Manufacturer": "",
+                "Manufacturer Part": "HDR1X5-M",
+                "Supplier": "LCSC",
+                "Supplier Part": "C9900001260",
+                "LCSC Part Name": "HDR1X5-M",
+                "Supplier Footprint": "TH-5P",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "",
+                "Description": "",
+                "Unique ID": "gge11",
+                "Name": "HDR1X5-M",
+                "3D Model": "47d466e4a34f4fc5bc626cf773a24dd5|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-TH_5P-P2.54-M-LI-1X5P",
+                "3D Model Transform": "499.999,100,0,0,0,0,0,0,-118.11",
+                "DeviceName": "HDR1X5-M",
+                "FootprintName": "HDR-TH_5P-P2.54-V-M"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "ENC1_A",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "ENC1_B",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "5",
+                    "number": "5",
+                    "net": "PWR_3V3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                }
+            }
+        },
+        "gge12": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "5dba8f0246ca3829",
+                "Footprint": "43e65f95a0b47942",
+                "PCB Layer": "Default",
+                "Symbol": "41eb93a58b06bbb2",
+                "Designator": "J8",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$3I47",
+                "Manufacturer": "",
+                "Manufacturer Part": "HDR1X5-M",
+                "Supplier": "LCSC",
+                "Supplier Part": "C9900001260",
+                "LCSC Part Name": "HDR1X5-M",
+                "Supplier Footprint": "TH-5P",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "",
+                "Description": "",
+                "Unique ID": "gge12",
+                "Name": "HDR1X5-M",
+                "3D Model": "47d466e4a34f4fc5bc626cf773a24dd5|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-TH_5P-P2.54-M-LI-1X5P",
+                "3D Model Transform": "499.999,100,0,0,0,0,0,0,-118.11",
+                "DeviceName": "HDR1X5-M",
+                "FootprintName": "HDR-TH_5P-P2.54-V-M"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "ENC2_A",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "ENC2_B",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "5",
+                    "number": "5",
+                    "net": "PWR_3V3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                }
+            }
+        },
+        "gge13": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "5dba8f0246ca3829",
+                "Footprint": "43e65f95a0b47942",
+                "PCB Layer": "Default",
+                "Symbol": "41eb93a58b06bbb2",
+                "Designator": "J9",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$3I52",
+                "Manufacturer": "",
+                "Manufacturer Part": "HDR1X5-M",
+                "Supplier": "LCSC",
+                "Supplier Part": "C9900001260",
+                "LCSC Part Name": "HDR1X5-M",
+                "Supplier Footprint": "TH-5P",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "",
+                "Description": "",
+                "Unique ID": "gge13",
+                "Name": "HDR1X5-M",
+                "3D Model": "47d466e4a34f4fc5bc626cf773a24dd5|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-TH_5P-P2.54-M-LI-1X5P",
+                "3D Model Transform": "499.999,100,0,0,0,0,0,0,-118.11",
+                "DeviceName": "HDR1X5-M",
+                "FootprintName": "HDR-TH_5P-P2.54-V-M"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "ENC3_A",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "ENC3_B",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "5",
+                    "number": "5",
+                    "net": "PWR_3V3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                }
+            }
+        },
+        "gge14": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "aec06cdd4b071ed2",
+                "Footprint": "5285c6faad201536",
+                "PCB Layer": "Default",
+                "Name": "MHSS-11mm10P",
+                "Designator": "J10",
+                "Symbol": "2a133fddae5f2cf6",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$3I57",
+                "Manufacturer": "",
+                "Manufacturer Part": "MHSS-11mm10P",
+                "Supplier": "LCSC",
+                "Supplier Part": "C9900307266",
+                "LCSC Part Name": "MHSS-11mm10P",
+                "Supplier Footprint": "HDR-TH_10P-P2.54-V-M",
+                "JLCPCB Part Class": "",
+                "Datasheet": "",
+                "Description": "",
+                "Unique ID": "gge14",
+                "3D Model": "10f3d1cea59e4bb4ba116af9f09c2b9b|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR2.54-M-LI-1X10P",
+                "3D Model Transform": "999.99796,100,0,0,0,0,0,0,-118.11",
+                "DeviceName": "MHSS-11mm10P",
+                "FootprintName": "HDR-TH_10P-P2.54-V-M"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "PWR_3V3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "PANEL_K0",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "PANEL_K1",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "5",
+                    "number": "5",
+                    "net": "PANEL_K2",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                },
+                "6": {
+                    "name": "6",
+                    "number": "6",
+                    "net": "PANEL_K3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "6"
+                    }
+                },
+                "7": {
+                    "name": "7",
+                    "number": "7",
+                    "net": "PANEL_K4",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "7"
+                    }
+                },
+                "8": {
+                    "name": "8",
+                    "number": "8",
+                    "net": "PANEL_K5",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "8"
+                    }
+                },
+                "9": {
+                    "name": "9",
+                    "number": "9",
+                    "net": "PANEL_K6",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "9"
+                    }
+                },
+                "10": {
+                    "name": "10",
+                    "number": "10",
+                    "net": "PANEL_K7",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "10"
+                    }
+                }
+            }
+        },
+        "gge15": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "54b67758eaa2c1e1",
+                "Footprint": "a6c9c7ae4980c4bf",
+                "PCB Layer": "Default",
+                "Symbol": "94eec3a110544309",
+                "Designator": "J11",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$3I68",
+                "Manufacturer": "",
+                "Manufacturer Part": "HDR-M_2.54_1x4P",
+                "Supplier": "LCSC",
+                "Supplier Part": "C9900236824",
+                "LCSC Part Name": "HDR-M_2.54_1x4P",
+                "Supplier Footprint": "HDR-TH_4P-P2.54-V-M",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "",
+                "Description": "",
+                "Unique ID": "gge15",
+                "Name": "HDR-M_2.54_1x4P",
+                "DeviceName": "HDR-M_2.54_1x4P_C9900236824",
+                "FootprintName": "HDR-TH_HDR-M_2.54_1X4P"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "PWR_3V3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "OLED_SCL",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "OLED_SDA",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                }
+            }
+        },
+        "gge25": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "5acfbbd8188c43b1",
+                "Footprint": "a5b3463529883940",
+                "PCB Layer": "Default",
+                "Symbol": "dc1b6fe9b64409b0",
+                "Designator": "C4",
+                "Unique ID": "gge25",
+                "Voltage Rating": "50V",
+                "Temperature Coefficient": "X7R",
+                "Pin Spacing": "5mm",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$3I73",
+                "Manufacturer": "TDK",
+                "Manufacturer Part": "FG28X7R1H104KNT06",
+                "Supplier": "LCSC",
+                "Supplier Part": "C342794",
+                "LCSC Part Name": "100nF ±10% 50V",
+                "Supplier Footprint": "插件,P=5mm",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "https://item.szlcsc.com/datasheet/FG28X7R1H104KNT06/319644.html",
+                "Value": "100nF",
+                "Tolerance": "±10%",
+                "Description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+                "Name": "100nF",
+                "3D Model": "9d0cdedf7a8f4b689dae7009bd25890c|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "CAP-TH_L4.0-W2.5-H5.5-P5.0",
+                "3D Model Transform": "212.598,98.425,0,0,0,0,-0.202,0.591,-137.795",
+                "DeviceName": "FG28X7R1H104KNT06_C342794",
+                "FootprintName": "CAP-TH_L4.0-W2.5-P5.00-D1.0"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "PWR_3V3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge17": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "5e358d25c5d0a6da",
+                "Footprint": "92f57f3ad01a0b0b",
+                "PCB Layer": "Default",
+                "Symbol": "90780d7cc9dfff3a",
+                "Designator": "J12",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$4I18",
+                "Manufacturer": "",
+                "Manufacturer Part": "长排针,2.54mm,6p",
+                "Supplier": "LCSC",
+                "Supplier Part": "C9900021383",
+                "LCSC Part Name": "长排针,2.54mm,6p",
+                "Supplier Footprint": "HDR-TH_6P-P2.54-V-M",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "",
+                "Description": "",
+                "Unique ID": "gge17",
+                "Name": "长排针,2.54mm,6p",
+                "3D Model": "ea2ef9880dfc49608331d2ca44c2c29d|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-TH_6P-P2.54-V-M-A",
+                "3D Model Transform": "599.9988,98.8187,0,0,0,0,0,0,-118.11",
+                "DeviceName": "长排针,2.54mm,6p",
+                "FootprintName": "HDR-TH_6P-P2.54-V-M-A"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "PCM_BCK",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "PCM_DIN",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "PCM_LRCK",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "5",
+                    "number": "5",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                },
+                "6": {
+                    "name": "6",
+                    "number": "6",
+                    "net": "PWR_5V",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "6"
+                    }
+                }
+            }
+        },
+        "gge18": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "071830f4f28fedff",
+                "Footprint": "8d767926b0826ab6",
+                "PCB Layer": "Default",
+                "Symbol": "b55e1ed3ceae34c3",
+                "Designator": "J13",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$4I25",
+                "Manufacturer": "",
+                "Manufacturer Part": "HDR2.54-LI-9P",
+                "Supplier": "LCSC",
+                "Supplier Part": "C9900020142",
+                "LCSC Part Name": "HDR2.54-LI-9P",
+                "Supplier Footprint": "HDR-TH_9P-P2.54-V-M",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "",
+                "Description": "",
+                "Unique ID": "gge18",
+                "Name": "HDR2.54-LI-9P",
+                "3D Model": "b5c1e988b3bb4503807579736b357ad0|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "HDR-TH_9P-P2.54-M-LI-1X9P",
+                "3D Model Transform": "890.15562,98.425,0,0,0,0,0,0,-118.11",
+                "DeviceName": "HDR2.54-LI-9P",
+                "FootprintName": "HDR-TH_9P-P2.54-V-M"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "PCM_A3V3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "PCM_A3V3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "5",
+                    "number": "5",
+                    "net": "PCM_A3V3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                },
+                "6": {
+                    "name": "6",
+                    "number": "6",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "6"
+                    }
+                },
+                "7": {
+                    "name": "7",
+                    "number": "7",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "7"
+                    }
+                },
+                "8": {
+                    "name": "8",
+                    "number": "8",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "8"
+                    }
+                },
+                "9": {
+                    "name": "9",
+                    "number": "9",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "9"
+                    }
+                }
+            }
+        },
+        "gge26": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "5acfbbd8188c43b1",
+                "Footprint": "a5b3463529883940",
+                "PCB Layer": "Default",
+                "Symbol": "dc1b6fe9b64409b0",
+                "Designator": "C5",
+                "Voltage Rating": "50V",
+                "Temperature Coefficient": "X7R",
+                "Pin Spacing": "5mm",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$4I31",
+                "Manufacturer": "TDK",
+                "Manufacturer Part": "FG28X7R1H104KNT06",
+                "Supplier": "LCSC",
+                "Supplier Part": "C342794",
+                "LCSC Part Name": "100nF ±10% 50V",
+                "Supplier Footprint": "插件,P=5mm",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "https://item.szlcsc.com/datasheet/FG28X7R1H104KNT06/319644.html",
+                "Value": "100nF",
+                "Tolerance": "±10%",
+                "Description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+                "Unique ID": "gge26",
+                "Name": "100nF",
+                "3D Model": "9d0cdedf7a8f4b689dae7009bd25890c|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "CAP-TH_L4.0-W2.5-H5.5-P5.0",
+                "3D Model Transform": "212.598,98.425,0,0,0,0,-0.202,0.591,-137.795",
+                "DeviceName": "FG28X7R1H104KNT06_C342794",
+                "FootprintName": "CAP-TH_L4.0-W2.5-P5.00-D1.0"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "PWR_5V",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge20": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "58f4f13bf713cad2",
+                "Footprint": "87ba9ff13780c434",
+                "PCB Layer": "Default",
+                "Symbol": "b02e2909af2d5bb6",
+                "Designator": "C6",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$4I34",
+                "Manufacturer": "rubycon(红宝石)",
+                "Manufacturer Part": "50ZLH10MEFC5X11",
+                "Supplier": "LCSC",
+                "Supplier Part": "C1591331",
+                "LCSC Part Name": "10uF ±20% 50V",
+                "Supplier Footprint": "插件,D5xL11mm",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20210602/82C93A4CE1B39FD446D4A832BEF3597D.pdf",
+                "Value": "10uF",
+                "Tolerance": "±20%",
+                "Rated Voltage": "50V",
+                "Lead Spacing": "2mm",
+                "φD": "5mm",
+                "L": "11mm",
+                "Lifetime @ Temp": "6000hrs@105℃",
+                "Operating Temperature": "-40℃~+105℃",
+                "Description": "容值:10uF;精度:±20%;额定电压:50V;",
+                "Unique ID": "gge20",
+                "Name": "10uF",
+                "3D Model": "aba3b94bdab6406eb4f45c9c765c730e|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "CAP-TH_BD5.0-P2.00-D0.5-FD",
+                "3D Model Transform": "196.85,196.517,0,0,0,0,0,0,-196.85",
+                "DeviceName": "50ZLH10MEFC5X11",
+                "FootprintName": "CAP-TH_BD5.0-P2.00-D0.5-FD"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "PWR_5V",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "gge21": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "54b67758eaa2c1e1",
+                "Footprint": "a6c9c7ae4980c4bf",
+                "PCB Layer": "Default",
+                "Symbol": "94eec3a110544309",
+                "Designator": "J14",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$5I10",
+                "Manufacturer": "",
+                "Manufacturer Part": "HDR-M_2.54_1x4P",
+                "Supplier": "LCSC",
+                "Supplier Part": "C9900236824",
+                "LCSC Part Name": "HDR-M_2.54_1x4P",
+                "Supplier Footprint": "HDR-TH_4P-P2.54-V-M",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "",
+                "Description": "",
+                "Unique ID": "gge21",
+                "Name": "HDR-M_2.54_1x4P",
+                "DeviceName": "HDR-M_2.54_1x4P_C9900236824",
+                "FootprintName": "HDR-TH_HDR-M_2.54_1X4P"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "PWR_3V3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "BLE_TX",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "BLE_RX",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                }
+            }
+        },
+        "gge22": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "54b67758eaa2c1e1",
+                "Footprint": "a6c9c7ae4980c4bf",
+                "PCB Layer": "Default",
+                "Symbol": "94eec3a110544309",
+                "Designator": "J15",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$5I15",
+                "Manufacturer": "",
+                "Manufacturer Part": "HDR-M_2.54_1x4P",
+                "Supplier": "LCSC",
+                "Supplier Part": "C9900236824",
+                "LCSC Part Name": "HDR-M_2.54_1x4P",
+                "Supplier Footprint": "HDR-TH_4P-P2.54-V-M",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "",
+                "Description": "",
+                "Unique ID": "gge22",
+                "Name": "HDR-M_2.54_1x4P",
+                "DeviceName": "HDR-M_2.54_1x4P_C9900236824",
+                "FootprintName": "HDR-TH_HDR-M_2.54_1X4P"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "PWR_3V3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "LASER_RX0",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "LASER_RX1",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                }
+            }
+        }
+    },
+    "designRule": {
+        "trackPhysics": {
+            "copperThickness1oz": {
+                "name": "copperThickness1oz",
+                "isDefault": true,
+                "unit": "mm",
+                "strokeValue": {
+                    "common": {
+                        "min": 0.127,
+                        "max": 2.54,
+                        "default": 0.254
+                    }
+                }
+            },
+            "copperThickness2oz": {
+                "name": "copperThickness2oz",
+                "isDefault": false,
+                "unit": "mm",
+                "strokeValue": {
+                    "common": {
+                        "min": 0.203,
+                        "max": 2.54,
+                        "default": 0.254
+                    }
+                }
+            }
+        },
+        "netRule": {
+            "SENS_SCL": {
+                "net": "SENS_SCL",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "PCM_BCK": {
+                "net": "PCM_BCK",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "PCM_DIN": {
+                "net": "PCM_DIN",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "PWR_5V": {
+                "net": "PWR_5V",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "OLED_SCL": {
+                "net": "OLED_SCL",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "ENC0_A": {
+                "net": "ENC0_A",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "ENC1_A": {
+                "net": "ENC1_A",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "ENC2_A": {
+                "net": "ENC2_A",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "ENC3_A": {
+                "net": "ENC3_A",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "PANEL_K0": {
+                "net": "PANEL_K0",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "PANEL_K2": {
+                "net": "PANEL_K2",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "PANEL_K4": {
+                "net": "PANEL_K4",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "PANEL_K6": {
+                "net": "PANEL_K6",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "LASER_RX0": {
+                "net": "LASER_RX0",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "BLE_TX": {
+                "net": "BLE_TX",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "BLE_RX": {
+                "net": "BLE_RX",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "LASER_RX1": {
+                "net": "LASER_RX1",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "PANEL_K7": {
+                "net": "PANEL_K7",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "PANEL_K5": {
+                "net": "PANEL_K5",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "PANEL_K3": {
+                "net": "PANEL_K3",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "PANEL_K1": {
+                "net": "PANEL_K1",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "ENC3_B": {
+                "net": "ENC3_B",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "ENC2_B": {
+                "net": "ENC2_B",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "ENC1_B": {
+                "net": "ENC1_B",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "ENC0_B": {
+                "net": "ENC0_B",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "OLED_SDA": {
+                "net": "OLED_SDA",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GND": {
+                "net": "GND",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "PCM_LRCK": {
+                "net": "PCM_LRCK",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "SENS_SDA": {
+                "net": "SENS_SDA",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "PWR_3V3": {
+                "net": "PWR_3V3",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "FSR_A1": {
+                "net": "FSR_A1",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "PCM_A3V3": {
+                "net": "PCM_A3V3",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            }
+        }
+    },
+    "differentialPair": {},
+    "netClass": {},
+    "equalLengthNetGroup": {},
+    "differentialPairGroups": {}
+}

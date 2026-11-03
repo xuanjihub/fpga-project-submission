@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Activity 启动主题；配色由 Compose/MIUIX 主题接管。 -->
+    <style name="Theme.FpgaInstrument" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

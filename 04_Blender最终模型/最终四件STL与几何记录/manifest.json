@@ -1,0 +1,133 @@
+{
+  "revision": "SB20",
+  "source": "sb08-acrylic-touch80\\work\\sb20-raised-laser-windows\\sb20-20261025-164643-984-1f7c587c\\SB20.blend",
+  "source_sha256": "fb3966dd8aba1d263b213d083b830fa2f56a385468dd4a2e028e4e96f7c2fff1",
+  "export_source_sha256": "1d1007e77bc79123b3bde457a9c415999adb2d72a7c1a157a8a658d5cec9cbc8",
+  "unit": "millimeter",
+  "previous_manifest": "sb08-acrylic-touch80\\work\\sb19-bambu-export\\geometry\\manifest.json",
+  "previous_manifest_sha256": "9528bf1005b747ea09b2e47df38f2c2070e387635eb01fcfca4e807455c952c4",
+  "geometry_change": "two frozen SB19 shell exports byte-identical; updated laser loop triangles rigidly rotated Rx90 and translated only",
+  "parts": [
+    {
+      "slug": "01-lower-tub",
+      "source_object": "PRINT | monolithic lower tub 6 mm",
+      "rotation_x_degrees": 0,
+      "bounds_mm": [
+        [
+          -120.0,
+          -90.0,
+          0.0
+        ],
+        [
+          120.0,
+          90.0,
+          88.69999694824219
+        ]
+      ],
+      "size_mm": [
+        240.0,
+        180.0,
+        88.69999694824219
+      ],
+      "stl": "sb08-acrylic-touch80\\work\\sb20-bambu-export\\sb20-bambu-20261025-165035-093-6f6543f9\\geometry\\01-lower-tub.stl",
+      "stl_sha256": "584edc92392f29eb5622a8f2bb5d1f4607c30a01b1287da37b9ce6ff29b597f7",
+      "topology_cleanup": {
+        "operation": "same SB19 export-copy cleanup: merge 0.0001 mm, normals, triangulation",
+        "source_modified": false
+      },
+      "frozen_SB19_shell": {
+        "previous_json": "sb08-acrylic-touch80\\work\\sb19-bambu-export\\geometry\\01-lower-tub.json",
+        "previous_json_sha256": "4028cc2c564382a39fe73660ef05e91b597ef3424f1ffe240bcaa905adf08096",
+        "vertices_and_triangles_exact": true,
+        "stl_byte_identical": true
+      },
+      "json_sha256": "04366fd0d1d45bc6a0eb7a420a3712baae5363d0834a93cff7330ee09ecbc575"
+    },
+    {
+      "slug": "02-upper-cover",
+      "source_object": "PRINT | continuous upper cover 3 mm | rear control bank",
+      "rotation_x_degrees": 0,
+      "bounds_mm": [
+        [
+          -120.0,
+          -90.0,
+          0.0
+        ],
+        [
+          120.0,
+          90.0,
+          45.0
+        ]
+      ],
+      "size_mm": [
+        240.0,
+        180.0,
+        45.0
+      ],
+      "stl": "sb08-acrylic-touch80\\work\\sb20-bambu-export\\sb20-bambu-20261025-165035-093-6f6543f9\\geometry\\02-upper-cover.stl",
+      "stl_sha256": "2d8d0c1c9e809fde3cf25798fc5adb1da76d210d1ee98251b1e71093bf59cc96",
+      "topology_cleanup": null,
+      "frozen_SB19_shell": {
+        "previous_json": "sb08-acrylic-touch80\\work\\sb19-bambu-export\\geometry\\02-upper-cover.json",
+        "previous_json_sha256": "933d0af963e81e41adec359e9cd41a7d319a8c90ae6df55483548715dd1f2395",
+        "vertices_and_triangles_exact": true,
+        "stl_byte_identical": true
+      },
+      "json_sha256": "41a86b8645c54a61c1effa4d75d9ca747df823967a867f4452998ebbae9795a3"
+    },
+    {
+      "slug": "03-laser-L",
+      "source_object": "SB20 LASER L | one piece 210 mm wall 4 mm",
+      "rotation_x_degrees": 90,
+      "bounds_mm": [
+        [
+          -29.0,
+          -105.0,
+          0.0
+        ],
+        [
+          29.0,
+          105.0,
+          38.00001525878906
+        ]
+      ],
+      "size_mm": [
+        58.0,
+        210.0,
+        38.00001525878906
+      ],
+      "stl": "sb08-acrylic-touch80\\work\\sb20-bambu-export\\sb20-bambu-20261025-165035-093-6f6543f9\\geometry\\03-laser-L.stl",
+      "stl_sha256": "097ea18d893f2eec90cf4291067004e76b66b40d06db1abaf6f60620c6b76b9c",
+      "topology_cleanup": null,
+      "frozen_SB19_shell": null,
+      "json_sha256": "91fa5cbc3b1aea52d2620c226569557b43efaa85e33f841c8535a981d1f0f849"
+    },
+    {
+      "slug": "04-laser-R",
+      "source_object": "SB20 LASER R | one piece 210 mm wall 4 mm",
+      "rotation_x_degrees": 90,
+      "bounds_mm": [
+        [
+          -29.0,
+          -105.0,
+          0.0
+        ],
+        [
+          29.0,
+          105.0,
+          38.00001525878906
+        ]
+      ],
+      "size_mm": [
+        58.0,
+        210.0,
+        38.00001525878906
+      ],
+      "stl": "sb08-acrylic-touch80\\work\\sb20-bambu-export\\sb20-bambu-20261025-165035-093-6f6543f9\\geometry\\04-laser-R.stl",
+      "stl_sha256": "6da472a3f16839f6bbb340128d3ba8ae6c3d3777cb3ce166542df824bb2134f6",
+      "topology_cleanup": null,
+      "frozen_SB19_shell": null,
+      "json_sha256": "dec75be694235ae4572d10a4e705f9457678b847ba63c2a92bc488cbf3bb8091"
+    }
+  ]
+}

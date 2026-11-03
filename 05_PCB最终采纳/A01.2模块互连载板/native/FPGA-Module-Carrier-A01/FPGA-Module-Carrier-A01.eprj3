@@ -1,0 +1,132 @@
+{
+  "name": "FPGA-Module-Carrier-A01",
+  "owner_uuid": "cb0ba7222e1b459d8f2a6a3fc9cceed9",
+  "creator_uuid": "cb0ba7222e1b459d8f2a6a3fc9cceed9",
+  "created_at": "2026-10-15 17:59:18",
+  "updated_at": "2026-10-15 17:59:18",
+  "modifier_uuid": "cb0ba7222e1b459d8f2a6a3fc9cceed9",
+  "content": "Module interconnect carrier A01: two-layer PCB routed; mechanical and hardware acceptance pending, not released for ordering",
+  "archive": false,
+  "cbb_project": 0,
+  "thumb": "",
+  "ticket": 1,
+  "g_ticket": 1,
+  "boards": [],
+  "block_symbol_attrs_groups": {},
+  "default_sheet": "11950340b2ea707b",
+  "branch_uuid": "",
+  "pcb_count": 0,
+  "format": "folder",
+  "profile": {
+    "boards": {
+      "39c3200c500098e5": {
+        "uuid": "39c3200c500098e5",
+        "title": "Board1",
+        "zIndex": 1
+      }
+    },
+    "schematics": {
+      "7e6a17c046245cdf": {
+        "uuid": "7e6a17c046245cdf",
+        "name": "Carrier-A01",
+        "board": "39c3200c500098e5",
+        "source": "",
+        "version": "1792216188395",
+        "updateTime": 1792216188395
+      }
+    },
+    "sheets": {
+      "8cc4d9e1306f2cae": {
+        "uuid": "8cc4d9e1306f2cae",
+        "title": "01-FPGA-and-Power",
+        "schematic_uuid": "7e6a17c046245cdf",
+        "zIndex": 1,
+        "source": "",
+        "version": "1792063836004",
+        "updateTime": 1792063836004
+      },
+      "0afe2425881a04e9": {
+        "uuid": "0afe2425881a04e9",
+        "title": "02-Touch-and-FSR",
+        "schematic_uuid": "7e6a17c046245cdf",
+        "zIndex": 2,
+        "source": "",
+        "version": "1792063837101",
+        "updateTime": 1792063837101
+      },
+      "d4a795d703af57fb": {
+        "uuid": "d4a795d703af57fb",
+        "title": "03-Panel-and-OLED",
+        "schematic_uuid": "7e6a17c046245cdf",
+        "zIndex": 3,
+        "source": "",
+        "version": "1792063838273",
+        "updateTime": 1792063838273
+      },
+      "3e151551951e25d2": {
+        "uuid": "3e151551951e25d2",
+        "title": "04-PCM-Audio",
+        "schematic_uuid": "7e6a17c046245cdf",
+        "zIndex": 4,
+        "source": "",
+        "version": "1792063839313",
+        "updateTime": 1792063839313
+      },
+      "d81a2b6a2b6addad": {
+        "uuid": "d81a2b6a2b6addad",
+        "title": "05-Expansion-and-Notes",
+        "schematic_uuid": "7e6a17c046245cdf",
+        "zIndex": 5,
+        "source": "",
+        "version": "1792063840326",
+        "updateTime": 1792063840326
+      }
+    },
+    "pcbs": {
+      "bb3470982c510d72": {
+        "uuid": "bb3470982c510d72",
+        "title": "PCB1",
+        "board": "39c3200c500098e5",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1792216657852",
+        "updateTime": 1792216657852
+      }
+    },
+    "panels": {
+      "df56bdf407b217f7": {
+        "uuid": "df56bdf407b217f7",
+        "title": "Panel1",
+        "zIndex": null
+      }
+    },
+    "blockSymbols": {},
+    "owner": {
+      "uuid": "cb0ba7222e1b459d8f2a6a3fc9cceed9"
+    },
+    "simSchematics": {},
+    "simulations": {}
+  },
+  "config": {
+    "defaultSheet": "11950340b2ea707b",
+    "settings": {
+      "UNIVERSAL": {
+        "dataType": "UNIVERSAL",
+        "data": {
+          "allowLibRename": true,
+          "defaultNetName": true,
+          "wireMultipleNet": true,
+          "netFlagCrossLayerConnection": true,
+          "netLabelCrossPageConnection": true,
+          "busGenerateNetClass": true,
+          "relevanceDisplayRow": "SINGLE",
+          "relevanceBelongSchPage": "NAME",
+          "relevanceLocation": "ZONE",
+          "multipartCrossLayer": true,
+          "nonElectronicAddIntoBom": false,
+          "nonElectronicUpdatePcb": false
+        }
+      }
+    }
+  }
+}

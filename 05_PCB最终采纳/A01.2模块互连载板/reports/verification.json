@@ -1,0 +1,244 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-15T12:38:19.213Z",
+  "scope": "Schematic source geometry, NC markers, library/footprint associations and exported netlists only.",
+  "hardware_acceptance": false,
+  "limitations": [
+    "No PCB placement/routing, module pin-order inspection, current-budget measurement or audio/noise acceptance.",
+    "Laser emitter/receiver set is confirmed for 3-5V and J15.1 uses 3.3V; current budget and receiver output levels/type remain unmeasured.",
+    "EDA ERC and visual page-layout checks are separate."
+  ],
+  "expected_counts": {
+    "pages": 5,
+    "components": 22,
+    "pins": 130,
+    "nets": 32,
+    "nc": 23
+  },
+  "counts": {
+    "pages": 5,
+    "components": 22,
+    "pins": 130,
+    "nets": 32,
+    "nc": 23
+  },
+  "checks": [
+    "Each schematic page has no repeated nonempty native TEXT values.",
+    "Native pin/line/netport/NC geometry agrees with the A01 cable contract.",
+    "EasyEDA and Protel net memberships agree with native geometry.",
+    "All components have embedded system-library devices and footprints with matching pad numbers.",
+    "Power rails, PCM_A3V3, FSR_A1, eight key signals and eight encoder signals are exact.",
+    "C1/C3/C4/C5 are FG28X7R1H104KNT06 C342794 100nF X7R 50V parts."
+  ],
+  "inputs": [
+    {
+      "path": "pcb-module-carrier\\pcb\\module-carrier-a01\\native\\FPGA-Module-Carrier-A01\\sch\\Carrier-A01\\01-FPGA-and-Power.esch2",
+      "bytes": 420711,
+      "sha256": "fe4c71d257fd63335b64bec195b78b5744c6ae483d2e326f5e6e561c96115172"
+    },
+    {
+      "path": "pcb-module-carrier\\pcb\\module-carrier-a01\\native\\FPGA-Module-Carrier-A01\\sch\\Carrier-A01\\02-Touch-and-FSR.esch2",
+      "bytes": 307280,
+      "sha256": "d013b28f0b5ce3b56b0c2ae86f35ccda9b8354b9bac1d6067c426c59085b9eb5"
+    },
+    {
+      "path": "pcb-module-carrier\\pcb\\module-carrier-a01\\native\\FPGA-Module-Carrier-A01\\sch\\Carrier-A01\\03-Panel-and-OLED.esch2",
+      "bytes": 363824,
+      "sha256": "b52cbac95b574712284322e527015e85c09fe91d48da02e09c74ca081c412aac"
+    },
+    {
+      "path": "pcb-module-carrier\\pcb\\module-carrier-a01\\native\\FPGA-Module-Carrier-A01\\sch\\Carrier-A01\\04-PCM-Audio.esch2",
+      "bytes": 277932,
+      "sha256": "8b47518573c06a1652a08aa5ec058ed99f3dd7037679b34baf9e3daf2ce2add1"
+    },
+    {
+      "path": "pcb-module-carrier\\pcb\\module-carrier-a01\\native\\FPGA-Module-Carrier-A01\\sch\\Carrier-A01\\05-Expansion-and-Notes.esch2",
+      "bytes": 151412,
+      "sha256": "b95822cade7730c4897b211895e6570ff343beef288c775391f9570afe059ea7"
+    },
+    {
+      "path": "pcb-module-carrier\\pcb\\module-carrier-a01\\exports\\carrier-easyeda.net",
+      "bytes": 82794,
+      "sha256": "dc22a3fc62736c36a6cc09e03e8c39051ed77345a4f9a68127fae10390472b85"
+    },
+    {
+      "path": "pcb-module-carrier\\pcb\\module-carrier-a01\\exports\\carrier-protel.net",
+      "bytes": 19316,
+      "sha256": "5bde4c7e456a540f57e3ac9eeb8039faa4ad36a9b3d72d468e59eb2356c50bea"
+    }
+  ],
+  "nets": {
+    "SENS_SCL": [
+      "J1.3",
+      "J3.3",
+      "J4.3"
+    ],
+    "PCM_BCK": [
+      "J1.5",
+      "J12.2"
+    ],
+    "PCM_DIN": [
+      "J1.7",
+      "J12.3"
+    ],
+    "PWR_5V": [
+      "C5.1",
+      "C6.1",
+      "J1.11",
+      "J12.6"
+    ],
+    "OLED_SCL": [
+      "J1.13",
+      "J11.3"
+    ],
+    "ENC0_A": [
+      "J1.15",
+      "J6.2"
+    ],
+    "ENC1_A": [
+      "J1.17",
+      "J7.2"
+    ],
+    "ENC2_A": [
+      "J1.19",
+      "J8.2"
+    ],
+    "ENC3_A": [
+      "J1.21",
+      "J9.2"
+    ],
+    "PANEL_K0": [
+      "J1.23",
+      "J10.3"
+    ],
+    "PANEL_K2": [
+      "J1.25",
+      "J10.5"
+    ],
+    "PANEL_K4": [
+      "J1.27",
+      "J10.7"
+    ],
+    "PANEL_K6": [
+      "J1.31",
+      "J10.9"
+    ],
+    "LASER_RX0": [
+      "J1.33",
+      "J15.3"
+    ],
+    "BLE_TX": [
+      "J1.35",
+      "J14.3"
+    ],
+    "BLE_RX": [
+      "J1.36",
+      "J14.4"
+    ],
+    "LASER_RX1": [
+      "J1.34",
+      "J15.4"
+    ],
+    "PANEL_K7": [
+      "J1.32",
+      "J10.10"
+    ],
+    "PANEL_K5": [
+      "J1.28",
+      "J10.8"
+    ],
+    "PANEL_K3": [
+      "J1.26",
+      "J10.6"
+    ],
+    "PANEL_K1": [
+      "J1.24",
+      "J10.4"
+    ],
+    "ENC3_B": [
+      "J1.22",
+      "J9.3"
+    ],
+    "ENC2_B": [
+      "J1.20",
+      "J8.3"
+    ],
+    "ENC1_B": [
+      "J1.18",
+      "J7.3"
+    ],
+    "ENC0_B": [
+      "J1.16",
+      "J6.3"
+    ],
+    "OLED_SDA": [
+      "J1.14",
+      "J11.4"
+    ],
+    "GND": [
+      "C1.2",
+      "C2.2",
+      "C3.2",
+      "C4.2",
+      "C5.2",
+      "C6.2",
+      "J1.12",
+      "J2.2",
+      "J3.1",
+      "J4.2",
+      "J4.5",
+      "J4.7",
+      "J6.1",
+      "J7.1",
+      "J8.1",
+      "J9.1",
+      "J10.2",
+      "J11.1",
+      "J12.1",
+      "J12.5",
+      "J13.2",
+      "J13.4",
+      "J14.2",
+      "J15.2",
+      "R1.2"
+    ],
+    "PCM_LRCK": [
+      "J1.6",
+      "J12.4"
+    ],
+    "SENS_SDA": [
+      "J1.4",
+      "J3.2",
+      "J4.4"
+    ],
+    "PWR_3V3": [
+      "C1.1",
+      "C2.1",
+      "C3.1",
+      "C4.1",
+      "J2.1",
+      "J3.5",
+      "J4.1",
+      "J5.1",
+      "J6.5",
+      "J7.5",
+      "J8.5",
+      "J9.5",
+      "J10.1",
+      "J11.2",
+      "J14.1",
+      "J15.1"
+    ],
+    "FSR_A1": [
+      "J4.8",
+      "J5.2",
+      "R1.1"
+    ],
+    "PCM_A3V3": [
+      "J13.1",
+      "J13.3",
+      "J13.5"
+    ]
+  },
+  "errors": []
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project><Template>FPGA</Template><Version>5</Version><Device name="GW5AST-138C" pn="GW5AST-LV138PG484AC1/I0">gw5ast138c-007</Device><FileList>
+<File path="src/miseki_board_top.v" type="file.verilog" enable="1"/>
+<File path="../midi_uart_v1/src/midi_uart_endpoint_v1.v" type="file.verilog" enable="1"/>
+<File path="../ble_uart_v1/src/ble_touch_freshness_v1.v" type="file.verilog" enable="1"/>
+<File path="../laser_pluck_v1/src/laser_diagnostics_v1.v" type="file.verilog" enable="1"/>
+<File path="src/miseki_system_v1.v" type="file.verilog" enable="1"/>
+<File path="../configurable_system_v2/src/panel_inputs_v2.v" type="file.verilog" enable="1"/>
+<File path="src/miseki_panel_config_v1.v" type="file.verilog" enable="1"/>
+<File path="../configurable_system_v2/src/panel_master_gain_v2.v" type="file.verilog" enable="1"/>
+<File path="../laser_ab_v1/src/ab_board_audio_v1.v" type="file.verilog" enable="1"/>
+<File path="../laser_pluck_v1/src/audio_output_trim_v1.v" type="file.verilog" enable="1"/>
+<File path="../audio_delay_v1/src/delay_stream_v1.v" type="file.verilog" enable="1"/>
+<File path="../audio_delay_v1/src/delay_master_v1.v" type="file.verilog" enable="1"/>
+<File path="../audio_delay_v1/src/delay_runtime_v1.v" type="file.verilog" enable="1"/>
+<File path="src/miseki_oled_v1.v" type="file.verilog" enable="1"/>
+
+
+
+<File path="../mega138k_mpr121_v1/src/i2c_reg_master.v" type="file.verilog" enable="1"/>
+<File path="../system_boundary_v1/src/system_audio_output.v" type="file.verilog" enable="1"/>
+<File path="../ble_uart_v1/src/ble_modulation_lfo_v1.v" type="file.verilog" enable="1"/>
+<File path="../audio_delay_v1/src/delay_route_v1.v" type="file.verilog" enable="1"/>
+<File path="../ble_uart_v1/src/ble_modulation_route_v1.v" type="file.verilog" enable="1"/>
+<File path="../laser_ab_v1/src/ab_event_core_v1.v" type="file.verilog" enable="1"/>
+<File path="../laser_ab_v1/src/ab_voice_core_v1.v" type="file.verilog" enable="1"/>
+<File path="../audio_timbres_v1/src/timbre_parameter_bank_v1.v" type="file.verilog" enable="1"/>
+<File path="../p13_board_v1/src/p13_events.v" type="file.verilog" enable="1"/>
+<File path="../p06_events_v1/src/p06_allocator.v" type="file.verilog" enable="1"/>
+<File path="../p06_core_v1/src/p06_mix_gain.v" type="file.verilog" enable="1"/>
+<File path="../p06_core_v1/src/p06_pitch.v" type="file.verilog" enable="1"/>
+<File path="../laser_ab_v1/src/ab_timbre_voice_v1.v" type="file.verilog" enable="1"/>
+<File path="../mega138k_s09_touch_pcm_v1/src/note_to_step.v" type="file.verilog" enable="1"/>
+<File path="../audio_timbres_v1/src/timbre_wave_rom_v1.v" type="file.verilog" enable="1"/>
+<File path="../mega138k_interface_prep_v1/src/i2s_tx.v" type="file.verilog" enable="1"/>
+<File path="../mega138k_s09_touch_pcm_v1/src/s09_control.v" type="file.verilog" enable="1"/>
+<File path="../mega138k_s15_poll_v1/src/s15_poll_core.v" type="file.verilog" enable="1"/>
+<File path="../mega138k_s15_poll_v1/src/s15_poll_mpr_client.v" type="file.verilog" enable="1"/>
+<File path="../mega138k_shared_diag_v1/src/shared_ads_client.v" type="file.verilog" enable="1"/>
+<File path="../mega138k_shared_diag_v1/src/shared_i2c_master.v" type="file.verilog" enable="1"/>
+<File path="../system_input_v1/src/input_snapshot.v" type="file.verilog" enable="1"/>
+<File path="../system_input_v1/src/fsr_input.v" type="file.verilog" enable="1"/>
+<File path="../mega138k_s12_runtime_pitch_v1/src/s12_pressure_gain.v" type="file.verilog" enable="1"/>
+<File path="../mega138k_interface_prep_v1/src/fsr_pressure_channel.v" type="file.verilog" enable="1"/>
+<File path="../p13_board_v1/src/p13_uart.v" type="file.verilog" enable="1"/>
+<File path="src/board.cst" type="file.cst" enable="1"/>
+<File path="src/board.sdc" type="file.sdc" enable="1"/>
+<File path="../laser_pluck_v1/src/laser_input_v1.v" type="file.verilog" enable="1"/>
+<File path="../laser_pluck_v1/src/laser_pluck_events_v1.v" type="file.verilog" enable="1"/>
+<File path="src/miseki_panel_control_v1.v" type="file.verilog" enable="1"/>
+<File path="../ble_uart_v1/src/ble_uart_phy_v1.v" type="file.verilog" enable="1"/>
+<File path="src/miseki_uart_endpoint_v1.v" type="file.verilog" enable="1"/>
+<File path="../laser_ab_v1/src/ab_mix_bypass_v1.v" type="file.verilog" enable="1"/>
+<File path="src/miseki_renderer_v1.v" type="file.verilog" enable="1"/>
+<File path="src/miseki_font_v1.v" type="file.verilog" enable="1"/>
+<File path="src/miseki_ssd1309_v1.v" type="file.verilog" enable="1"/>
+</FileList></Project>

@@ -1,0 +1,910 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-16T07:09:36.409Z",
+  "scope": "PCB snapshot-to-schematic pin contract and native persistence audit.",
+  "hardware_acceptance": false,
+  "geometry_short_circuit_independent_algorithm": false,
+  "expected_counts": {
+    "components": 22,
+    "pins": 130,
+    "nets": 32,
+    "nc": 23,
+    "mountingHoles": 4,
+    "groundVias": 29,
+    "signalVias": 7,
+    "pours": 2
+  },
+  "inputs": [
+    {
+      "path": "pcb-module-carrier\\pcb\\module-carrier-a01\\reports\\pcb-final-snapshot.json",
+      "bytes": 299675,
+      "sha256": "0877520c46f6bb583b3febc2be036d88cc4c94192ee3389009ac29cfbb9e5fea"
+    },
+    {
+      "path": "pcb-module-carrier\\pcb\\module-carrier-a01\\reports\\pin-map.csv",
+      "bytes": 8366,
+      "sha256": "03c482bdd25114d2d545aa26af3f7e78d8a8f973cb56836c7537dbd1f194a804"
+    },
+    {
+      "path": "pcb-module-carrier\\pcb\\module-carrier-a01\\native\\FPGA-Module-Carrier-A01\\pcb\\PCB1.epcb2",
+      "bytes": 685624,
+      "sha256": "88236b5fca0157745eba1772f97e221187ce0dbe55f0b6546991954deb8ce7d0"
+    },
+    {
+      "path": "pcb-module-carrier\\logs\\pcb-gerber-a012-review\\Drill_PTH_Through.DRL",
+      "bytes": 2594,
+      "sha256": "05056d07cce3035960af13e25741b939a50e0cf76987c10500f2605750264868"
+    },
+    {
+      "path": "pcb-module-carrier\\logs\\pcb-gerber-a012-review\\Drill_PTH_Through_Via.DRL",
+      "bytes": 755,
+      "sha256": "392adf755eee66f2742f9ac618181e0c7dc6cbfd06018cd53e30538aa7ae8f77"
+    },
+    {
+      "path": "pcb-module-carrier\\logs\\pcb-gerber-a012-review\\Drill_NPTH_Through.DRL",
+      "bytes": 241,
+      "sha256": "de6c7e3d69ab243780f92632071e81df9fb98193d13374e320a95937eeafccd0"
+    },
+    {
+      "path": "pcb-module-carrier\\pcb\\module-carrier-a01\\exports\\manufacturing\\Carrier-A01.ipc",
+      "bytes": 17404,
+      "sha256": "059f72e0516d538ad284ede2f07fd3eacec16d9ee361e134f255edb3d6d2c8ab"
+    }
+  ],
+  "checks": [
+    "22 component references, 130 numbered pins, 32 nets and 23 empty-net NCs match CSV, including isolated supply rails and PCM/FSR boundaries.",
+    "Two copper layers, one 100x80mm rectangular outline and four 3.2mm NPTH holes at (5,5)/(95,5)/(95,75)/(5,75)mm; mechanical fit is not accepted by this audit.",
+    "PWR_3V3/PWR_5V distribution tracks >=0.79mm; isolated PCM_A3V3 local mode straps >=0.39mm; other tracks >=0.25mm; 29 ground/7 signal vias with 0.6mm copper and 0.3mm drill. FSR_A1 and PCM_A3V3 have top-layer-only routing without redundant bottom branches or vias. Two GND pours contain actual filled copper and the post-cleanup full native DRC is empty.",
+    "76 J2-J15 pin legends are derived independently from schematic pin-map nets and physical PCM-mode aliases, then verified against saved native top-silk STRING text, connector-relative coordinates and orientation; J10 starts 1:3V3 / 2:GND / 3:K0 and ends 10:K7. Board revision is A01.2.",
+    "Native PCB live COMPONENT/PAD_NET/LINE/VIA/POUR/POURED records agree with snapshot; embedded libraries and deletion tombstones are excluded from board counts. Native footprint pads independently confirm plated through-hole drill dimensions.",
+    "Independent Excellon drill files contain exactly 130 plated component holes plus 36 vias and 4 nonplated mounting holes, with per-hole coordinates and diameters matching native footprints/API positions. IPC-D-356A component-pin nets, drill sizes and coordinates match all 130 pins."
+  ],
+  "observations": [
+    {
+      "pour_island_policy": "Both GND pours must use preserveSilos=false; DRC-proven free filled regions were explicitly removed and final full native DRC must be empty.",
+      "actual_pour_flags": [
+        {
+          "id": "ad3131de3f220d4f",
+          "layer": 2,
+          "preserveSilos": false
+        },
+        {
+          "id": "7476148e702cdf93",
+          "layer": 1,
+          "preserveSilos": false
+        }
+      ]
+    },
+    {
+      "component_hole_native_to_api_ratios": [
+        10
+      ],
+      "component_drill_authority": "Native embedded FOOTPRINT PAD hole dimensions (mil), not the component-pad API getter.",
+      "actual_native_drills_mm": {
+        "C1.1": 0.9999979999999999,
+        "C1.2": 0.9999979999999999,
+        "C2.1": 0.700024,
+        "C2.2": 0.700024,
+        "C3.1": 0.9999979999999999,
+        "C3.2": 0.9999979999999999,
+        "C4.1": 0.9999979999999999,
+        "C4.2": 0.9999979999999999,
+        "C5.1": 0.9999979999999999,
+        "C5.2": 0.9999979999999999,
+        "C6.1": 0.700024,
+        "C6.2": 0.700024,
+        "J1.1": 1.0499852,
+        "J1.2": 1.0499852,
+        "J1.3": 1.0499852,
+        "J1.4": 1.0499852,
+        "J1.5": 1.0499852,
+        "J1.6": 1.0499852,
+        "J1.7": 1.0499852,
+        "J1.8": 1.0499852,
+        "J1.9": 1.0499852,
+        "J1.10": 1.0499852,
+        "J1.11": 1.0499852,
+        "J1.12": 1.0499852,
+        "J1.13": 1.0499852,
+        "J1.14": 1.0499852,
+        "J1.15": 1.0499852,
+        "J1.16": 1.0499852,
+        "J1.17": 1.0499852,
+        "J1.18": 1.0499852,
+        "J1.19": 1.0499852,
+        "J1.20": 1.0499852,
+        "J1.21": 1.0499852,
+        "J1.22": 1.0499852,
+        "J1.23": 1.0499852,
+        "J1.24": 1.0499852,
+        "J1.25": 1.0499852,
+        "J1.26": 1.0499852,
+        "J1.27": 1.0499852,
+        "J1.28": 1.0499852,
+        "J1.29": 1.0499852,
+        "J1.30": 1.0499852,
+        "J1.31": 1.0499852,
+        "J1.32": 1.0499852,
+        "J1.33": 1.0499852,
+        "J1.34": 1.0499852,
+        "J1.35": 1.0499852,
+        "J1.36": 1.0499852,
+        "J1.37": 1.0499852,
+        "J1.38": 1.0499852,
+        "J1.39": 1.0499852,
+        "J1.40": 1.0499852,
+        "J2.2": 1.1000231999999999,
+        "J2.1": 1.1000231999999999,
+        "J3.1": 1.1000231999999999,
+        "J3.2": 1.1000231999999999,
+        "J3.3": 1.1000231999999999,
+        "J3.4": 1.1000231999999999,
+        "J3.5": 1.1000231999999999,
+        "J4.10": 1.1000231999999999,
+        "J4.9": 1.1000231999999999,
+        "J4.8": 1.1000231999999999,
+        "J4.7": 1.1000231999999999,
+        "J4.6": 1.1000231999999999,
+        "J4.5": 1.1000231999999999,
+        "J4.4": 1.1000231999999999,
+        "J4.3": 1.1000231999999999,
+        "J4.2": 1.1000231999999999,
+        "J4.1": 1.1000231999999999,
+        "J5.2": 1.1000231999999999,
+        "J5.1": 1.1000231999999999,
+        "J6.1": 1.1000231999999999,
+        "J6.2": 1.1000231999999999,
+        "J6.3": 1.1000231999999999,
+        "J6.4": 1.1000231999999999,
+        "J6.5": 1.1000231999999999,
+        "J7.1": 1.1000231999999999,
+        "J7.2": 1.1000231999999999,
+        "J7.3": 1.1000231999999999,
+        "J7.4": 1.1000231999999999,
+        "J7.5": 1.1000231999999999,
+        "J8.1": 1.1000231999999999,
+        "J8.2": 1.1000231999999999,
+        "J8.3": 1.1000231999999999,
+        "J8.4": 1.1000231999999999,
+        "J8.5": 1.1000231999999999,
+        "J9.1": 1.1000231999999999,
+        "J9.2": 1.1000231999999999,
+        "J9.3": 1.1000231999999999,
+        "J9.4": 1.1000231999999999,
+        "J9.5": 1.1000231999999999,
+        "J10.10": 1.1000231999999999,
+        "J10.9": 1.1000231999999999,
+        "J10.8": 1.1000231999999999,
+        "J10.7": 1.1000231999999999,
+        "J10.6": 1.1000231999999999,
+        "J10.5": 1.1000231999999999,
+        "J10.4": 1.1000231999999999,
+        "J10.3": 1.1000231999999999,
+        "J10.2": 1.1000231999999999,
+        "J10.1": 1.1000231999999999,
+        "J11.4": 1.0200132,
+        "J11.3": 1.0200132,
+        "J11.2": 1.0200132,
+        "J11.1": 1.0200132,
+        "J12.1": 1.1000231999999999,
+        "J12.2": 1.1000231999999999,
+        "J12.3": 1.1000231999999999,
+        "J12.4": 1.1000231999999999,
+        "J12.5": 1.1000231999999999,
+        "J12.6": 1.1000231999999999,
+        "J13.1": 1.1000231999999999,
+        "J13.2": 1.1000231999999999,
+        "J13.3": 1.1000231999999999,
+        "J13.4": 1.1000231999999999,
+        "J13.5": 1.1000231999999999,
+        "J13.6": 1.1000231999999999,
+        "J13.7": 1.1000231999999999,
+        "J13.8": 1.1000231999999999,
+        "J13.9": 1.1000231999999999,
+        "J14.4": 1.0200132,
+        "J14.3": 1.0200132,
+        "J14.2": 1.0200132,
+        "J14.1": 1.0200132,
+        "J15.4": 1.0200132,
+        "J15.3": 1.0200132,
+        "J15.2": 1.0200132,
+        "J15.1": 1.0200132,
+        "R1.1": 0.700024,
+        "R1.2": 0.700024
+      }
+    },
+    {
+      "connector_pin_silkscreen": [
+        {
+          "pin": "J2.2",
+          "label": "2:GND",
+          "expected": "2:GND",
+          "x_mm": 82.41881916,
+          "y_mm": 65.10000188000001,
+          "rotation": 0
+        },
+        {
+          "pin": "J2.1",
+          "label": "1:3V3",
+          "expected": "1:3V3",
+          "x_mm": 79.87881915999999,
+          "y_mm": 65.10000188000001,
+          "rotation": 0
+        },
+        {
+          "pin": "J3.1",
+          "label": "1:GND",
+          "expected": "1:GND",
+          "x_mm": 9.07123916,
+          "y_mm": 30.100000759999997,
+          "rotation": 0
+        },
+        {
+          "pin": "J3.2",
+          "label": "2:SDA",
+          "expected": "2:SDA",
+          "x_mm": 11.61123916,
+          "y_mm": 30.100000759999997,
+          "rotation": 0
+        },
+        {
+          "pin": "J3.3",
+          "label": "3:SCL",
+          "expected": "3:SCL",
+          "x_mm": 14.15123916,
+          "y_mm": 30.100000759999997,
+          "rotation": 0
+        },
+        {
+          "pin": "J3.4",
+          "label": "4:NC",
+          "expected": "4:NC",
+          "x_mm": 16.69123916,
+          "y_mm": 30.100000759999997,
+          "rotation": 0
+        },
+        {
+          "pin": "J3.5",
+          "label": "5:3V3",
+          "expected": "5:3V3",
+          "x_mm": 19.231239159999998,
+          "y_mm": 30.100000759999997,
+          "rotation": 0
+        },
+        {
+          "pin": "J4.10",
+          "label": "10:NC",
+          "expected": "10:NC",
+          "x_mm": 35.581219159999996,
+          "y_mm": 22.10000152,
+          "rotation": 0
+        },
+        {
+          "pin": "J4.9",
+          "label": "9:NC",
+          "expected": "9:NC",
+          "x_mm": 33.04121916,
+          "y_mm": 22.10000152,
+          "rotation": 0
+        },
+        {
+          "pin": "J4.8",
+          "label": "8:A1",
+          "expected": "8:A1",
+          "x_mm": 30.501219159999998,
+          "y_mm": 22.10000152,
+          "rotation": 0
+        },
+        {
+          "pin": "J4.7",
+          "label": "7:GND",
+          "expected": "7:GND",
+          "x_mm": 27.96121916,
+          "y_mm": 22.10000152,
+          "rotation": 0
+        },
+        {
+          "pin": "J4.6",
+          "label": "6:NC",
+          "expected": "6:NC",
+          "x_mm": 25.42121916,
+          "y_mm": 22.10000152,
+          "rotation": 0
+        },
+        {
+          "pin": "J4.5",
+          "label": "5:GND",
+          "expected": "5:GND",
+          "x_mm": 22.88121916,
+          "y_mm": 22.10000152,
+          "rotation": 0
+        },
+        {
+          "pin": "J4.4",
+          "label": "4:SDA",
+          "expected": "4:SDA",
+          "x_mm": 20.34121916,
+          "y_mm": 22.10000152,
+          "rotation": 0
+        },
+        {
+          "pin": "J4.3",
+          "label": "3:SCL",
+          "expected": "3:SCL",
+          "x_mm": 17.801219160000002,
+          "y_mm": 22.10000152,
+          "rotation": 0
+        },
+        {
+          "pin": "J4.2",
+          "label": "2:GND",
+          "expected": "2:GND",
+          "x_mm": 15.261219160000001,
+          "y_mm": 22.10000152,
+          "rotation": 0
+        },
+        {
+          "pin": "J4.1",
+          "label": "1:3V3",
+          "expected": "1:3V3",
+          "x_mm": 12.721219159999999,
+          "y_mm": 22.10000152,
+          "rotation": 0
+        },
+        {
+          "pin": "J5.2",
+          "label": "2:A1",
+          "expected": "2:A1",
+          "x_mm": 32.418919159999994,
+          "y_mm": 16.50000002,
+          "rotation": 0
+        },
+        {
+          "pin": "J5.1",
+          "label": "1:3V3",
+          "expected": "1:3V3",
+          "x_mm": 29.87891916,
+          "y_mm": 16.50000002,
+          "rotation": 0
+        },
+        {
+          "pin": "J6.1",
+          "label": "1:GND",
+          "expected": "1:GND",
+          "x_mm": 47.5696407,
+          "y_mm": 46.60000078,
+          "rotation": 90
+        },
+        {
+          "pin": "J6.2",
+          "label": "2:A",
+          "expected": "2:A",
+          "x_mm": 50.1096407,
+          "y_mm": 46.60000078,
+          "rotation": 90
+        },
+        {
+          "pin": "J6.3",
+          "label": "3:B",
+          "expected": "3:B",
+          "x_mm": 52.64964069999999,
+          "y_mm": 46.60000078,
+          "rotation": 90
+        },
+        {
+          "pin": "J6.4",
+          "label": "4:NC",
+          "expected": "4:NC",
+          "x_mm": 55.18964069999999,
+          "y_mm": 46.60000078,
+          "rotation": 90
+        },
+        {
+          "pin": "J6.5",
+          "label": "5:3V3",
+          "expected": "5:3V3",
+          "x_mm": 57.72964069999999,
+          "y_mm": 46.60000078,
+          "rotation": 90
+        },
+        {
+          "pin": "J7.1",
+          "label": "1:GND",
+          "expected": "1:GND",
+          "x_mm": 67.5696007,
+          "y_mm": 46.60000078,
+          "rotation": 90
+        },
+        {
+          "pin": "J7.2",
+          "label": "2:A",
+          "expected": "2:A",
+          "x_mm": 70.1096007,
+          "y_mm": 46.60000078,
+          "rotation": 90
+        },
+        {
+          "pin": "J7.3",
+          "label": "3:B",
+          "expected": "3:B",
+          "x_mm": 72.6496007,
+          "y_mm": 46.60000078,
+          "rotation": 90
+        },
+        {
+          "pin": "J7.4",
+          "label": "4:NC",
+          "expected": "4:NC",
+          "x_mm": 75.1896007,
+          "y_mm": 46.60000078,
+          "rotation": 90
+        },
+        {
+          "pin": "J7.5",
+          "label": "5:3V3",
+          "expected": "5:3V3",
+          "x_mm": 77.72960069999999,
+          "y_mm": 46.60000078,
+          "rotation": 90
+        },
+        {
+          "pin": "J8.1",
+          "label": "1:GND",
+          "expected": "1:GND",
+          "x_mm": 47.5696407,
+          "y_mm": 32.60000084,
+          "rotation": 90
+        },
+        {
+          "pin": "J8.2",
+          "label": "2:A",
+          "expected": "2:A",
+          "x_mm": 50.1096407,
+          "y_mm": 32.60000084,
+          "rotation": 90
+        },
+        {
+          "pin": "J8.3",
+          "label": "3:B",
+          "expected": "3:B",
+          "x_mm": 52.64964069999999,
+          "y_mm": 32.60000084,
+          "rotation": 90
+        },
+        {
+          "pin": "J8.4",
+          "label": "4:NC",
+          "expected": "4:NC",
+          "x_mm": 55.18964069999999,
+          "y_mm": 32.60000084,
+          "rotation": 90
+        },
+        {
+          "pin": "J8.5",
+          "label": "5:3V3",
+          "expected": "5:3V3",
+          "x_mm": 57.72964069999999,
+          "y_mm": 32.60000084,
+          "rotation": 90
+        },
+        {
+          "pin": "J9.1",
+          "label": "1:GND",
+          "expected": "1:GND",
+          "x_mm": 67.5696007,
+          "y_mm": 32.60000084,
+          "rotation": 90
+        },
+        {
+          "pin": "J9.2",
+          "label": "2:A",
+          "expected": "2:A",
+          "x_mm": 70.1096007,
+          "y_mm": 32.60000084,
+          "rotation": 90
+        },
+        {
+          "pin": "J9.3",
+          "label": "3:B",
+          "expected": "3:B",
+          "x_mm": 72.6496007,
+          "y_mm": 32.60000084,
+          "rotation": 90
+        },
+        {
+          "pin": "J9.4",
+          "label": "4:NC",
+          "expected": "4:NC",
+          "x_mm": 75.1896007,
+          "y_mm": 32.60000084,
+          "rotation": 90
+        },
+        {
+          "pin": "J9.5",
+          "label": "5:3V3",
+          "expected": "5:3V3",
+          "x_mm": 77.72960069999999,
+          "y_mm": 32.60000084,
+          "rotation": 90
+        },
+        {
+          "pin": "J10.10",
+          "label": "10:K7",
+          "expected": "10:K7",
+          "x_mm": 81.0798607,
+          "y_mm": 15.599999279999999,
+          "rotation": 90
+        },
+        {
+          "pin": "J10.9",
+          "label": "9:K6",
+          "expected": "9:K6",
+          "x_mm": 78.53986069999999,
+          "y_mm": 15.599999279999999,
+          "rotation": 90
+        },
+        {
+          "pin": "J10.8",
+          "label": "8:K5",
+          "expected": "8:K5",
+          "x_mm": 75.9998607,
+          "y_mm": 15.599999279999999,
+          "rotation": 90
+        },
+        {
+          "pin": "J10.7",
+          "label": "7:K4",
+          "expected": "7:K4",
+          "x_mm": 73.4598607,
+          "y_mm": 15.599999279999999,
+          "rotation": 90
+        },
+        {
+          "pin": "J10.6",
+          "label": "6:K3",
+          "expected": "6:K3",
+          "x_mm": 70.9198607,
+          "y_mm": 15.599999279999999,
+          "rotation": 90
+        },
+        {
+          "pin": "J10.5",
+          "label": "5:K2",
+          "expected": "5:K2",
+          "x_mm": 68.3798607,
+          "y_mm": 15.599999279999999,
+          "rotation": 90
+        },
+        {
+          "pin": "J10.4",
+          "label": "4:K1",
+          "expected": "4:K1",
+          "x_mm": 65.8398607,
+          "y_mm": 15.599999279999999,
+          "rotation": 90
+        },
+        {
+          "pin": "J10.3",
+          "label": "3:K0",
+          "expected": "3:K0",
+          "x_mm": 63.299860699999996,
+          "y_mm": 15.599999279999999,
+          "rotation": 90
+        },
+        {
+          "pin": "J10.2",
+          "label": "2:GND",
+          "expected": "2:GND",
+          "x_mm": 60.7598607,
+          "y_mm": 15.599999279999999,
+          "rotation": 90
+        },
+        {
+          "pin": "J10.1",
+          "label": "1:3V3",
+          "expected": "1:3V3",
+          "x_mm": 58.2198607,
+          "y_mm": 15.599999279999999,
+          "rotation": 90
+        },
+        {
+          "pin": "J11.4",
+          "label": "4:SDA",
+          "expected": "4:SDA",
+          "x_mm": 50.960919159999996,
+          "y_mm": 58.100000640000005,
+          "rotation": 0
+        },
+        {
+          "pin": "J11.3",
+          "label": "3:SCL",
+          "expected": "3:SCL",
+          "x_mm": 48.42091916,
+          "y_mm": 58.100000640000005,
+          "rotation": 0
+        },
+        {
+          "pin": "J11.2",
+          "label": "2:3V3",
+          "expected": "2:3V3",
+          "x_mm": 45.88091916,
+          "y_mm": 58.100000640000005,
+          "rotation": 0
+        },
+        {
+          "pin": "J11.1",
+          "label": "1:GND",
+          "expected": "1:GND",
+          "x_mm": 43.34091916,
+          "y_mm": 58.100000640000005,
+          "rotation": 0
+        },
+        {
+          "pin": "J12.1",
+          "label": "1:GND",
+          "expected": "1:GND",
+          "x_mm": 21.300960699999997,
+          "y_mm": 47.60000132,
+          "rotation": 90
+        },
+        {
+          "pin": "J12.2",
+          "label": "2:BCK",
+          "expected": "2:BCK",
+          "x_mm": 23.8409607,
+          "y_mm": 47.60000132,
+          "rotation": 90
+        },
+        {
+          "pin": "J12.3",
+          "label": "3:DIN",
+          "expected": "3:DIN",
+          "x_mm": 26.3809607,
+          "y_mm": 47.60000132,
+          "rotation": 90
+        },
+        {
+          "pin": "J12.4",
+          "label": "4:LRCK",
+          "expected": "4:LRCK",
+          "x_mm": 28.9209607,
+          "y_mm": 47.60000132,
+          "rotation": 90
+        },
+        {
+          "pin": "J12.5",
+          "label": "5:GND",
+          "expected": "5:GND",
+          "x_mm": 31.460960699999998,
+          "y_mm": 47.60000132,
+          "rotation": 90
+        },
+        {
+          "pin": "J12.6",
+          "label": "6:5V",
+          "expected": "6:5V",
+          "x_mm": 34.0009607,
+          "y_mm": 47.60000132,
+          "rotation": 90
+        },
+        {
+          "pin": "J13.1",
+          "label": "1:FLT",
+          "expected": "1:FLT",
+          "x_mm": 16.4902007,
+          "y_mm": 37.600001,
+          "rotation": 90
+        },
+        {
+          "pin": "J13.2",
+          "label": "2:GND",
+          "expected": "2:GND",
+          "x_mm": 19.030200699999998,
+          "y_mm": 37.600001,
+          "rotation": 90
+        },
+        {
+          "pin": "J13.3",
+          "label": "3:XSMT",
+          "expected": "3:XSMT",
+          "x_mm": 21.5702007,
+          "y_mm": 37.600001,
+          "rotation": 90
+        },
+        {
+          "pin": "J13.4",
+          "label": "4:GND",
+          "expected": "4:GND",
+          "x_mm": 24.1102007,
+          "y_mm": 37.600001,
+          "rotation": 90
+        },
+        {
+          "pin": "J13.5",
+          "label": "5:A3V3",
+          "expected": "5:A3V3",
+          "x_mm": 26.650200699999996,
+          "y_mm": 37.600001,
+          "rotation": 90
+        },
+        {
+          "pin": "J13.6",
+          "label": "6:NC",
+          "expected": "6:NC",
+          "x_mm": 29.190200699999995,
+          "y_mm": 37.600001,
+          "rotation": 90
+        },
+        {
+          "pin": "J13.7",
+          "label": "7:NC",
+          "expected": "7:NC",
+          "x_mm": 31.730200699999997,
+          "y_mm": 37.600001,
+          "rotation": 90
+        },
+        {
+          "pin": "J13.8",
+          "label": "8:NC",
+          "expected": "8:NC",
+          "x_mm": 34.2702007,
+          "y_mm": 37.600001,
+          "rotation": 90
+        },
+        {
+          "pin": "J13.9",
+          "label": "9:NC",
+          "expected": "9:NC",
+          "x_mm": 36.810200699999996,
+          "y_mm": 37.600001,
+          "rotation": 90
+        },
+        {
+          "pin": "J14.4",
+          "label": "4:RX",
+          "expected": "4:RX",
+          "x_mm": 92.00000142,
+          "y_mm": 58.4611607,
+          "rotation": 0
+        },
+        {
+          "pin": "J14.3",
+          "label": "3:TX",
+          "expected": "3:TX",
+          "x_mm": 92.00000142,
+          "y_mm": 55.921160699999994,
+          "rotation": 0
+        },
+        {
+          "pin": "J14.2",
+          "label": "2:GND",
+          "expected": "2:GND",
+          "x_mm": 92.00000142,
+          "y_mm": 53.381160699999995,
+          "rotation": 0
+        },
+        {
+          "pin": "J14.1",
+          "label": "1:3V3",
+          "expected": "1:3V3",
+          "x_mm": 92.00000142,
+          "y_mm": 50.841160699999996,
+          "rotation": 0
+        },
+        {
+          "pin": "J15.4",
+          "label": "4:RX1",
+          "expected": "4:RX1",
+          "x_mm": 92.00000142,
+          "y_mm": 40.460180699999995,
+          "rotation": 0
+        },
+        {
+          "pin": "J15.3",
+          "label": "3:RX0",
+          "expected": "3:RX0",
+          "x_mm": 92.00000142,
+          "y_mm": 37.920180699999996,
+          "rotation": 0
+        },
+        {
+          "pin": "J15.2",
+          "label": "2:GND",
+          "expected": "2:GND",
+          "x_mm": 92.00000142,
+          "y_mm": 35.3801807,
+          "rotation": 0
+        },
+        {
+          "pin": "J15.1",
+          "label": "1:3V3",
+          "expected": "1:3V3",
+          "x_mm": 92.00000142,
+          "y_mm": 32.8401807,
+          "rotation": 0
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "No independent polygon intersection or physical connectivity solver is implemented; shorts, spacing and unrouted connectivity rely on captured native full DRC.",
+    "The empty DRC array is a saved native-tool result, not electrically measured hardware acceptance.",
+    "Mechanical fit, total-current budget, laser output levels, assembly, noise, channel balance and audio quality remain unverified."
+  ],
+  "snapshot_date": "2026-10-16T07:08:46.245Z",
+  "project": "FPGA-Module-Carrier-A01",
+  "counts": {
+    "components": 22,
+    "pins": 130,
+    "nets": 32,
+    "nc": 23,
+    "mountingHoles": 4,
+    "groundVias": 29,
+    "signalVias": 7,
+    "pours": 2,
+    "tracks": 202
+  },
+  "board": {
+    "width_mm": 100.00000066,
+    "height_mm": 80.00000002,
+    "vertices_mm": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        80.00000002
+      ],
+      [
+        100.00000066,
+        80.00000002
+      ],
+      [
+        100.00000066,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  "track_width_minima": {
+    "power_mm": 0.8000974599999999,
+    "other_mm": 0.29999939999999997,
+    "pcm_mode_mm": 0.39999919999999994
+  },
+  "native": {
+    "pcb_uuid": "bb3470982c510d72",
+    "components": 22,
+    "pad_nets": 130,
+    "copper_lines": 202,
+    "vias": 36,
+    "pours": 2,
+    "filled_pours": 2,
+    "free_pads": 4,
+    "verified_connector_pin_legends": 76,
+    "board_revision": "A01.2"
+  },
+  "manufacturing": {
+    "plated_hits_including_vias": 166,
+    "via_hits": 36,
+    "nonplated_hits": 4,
+    "ipc_component_pins": 130,
+    "plated_tools_mm": {
+      "01": 0.29972,
+      "02": 0.29997,
+      "03": 0.3,
+      "04": 0.70002,
+      "05": 1,
+      "06": 1.02001,
+      "07": 1.04999,
+      "08": 1.10002
+    },
+    "nonplated_tools_mm": {
+      "01": 3.2
+    }
+  }
+}

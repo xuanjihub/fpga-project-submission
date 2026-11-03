@@ -1,0 +1,4 @@
+{"type":"DOCHEAD"}||{"docType":"SCH","client":"f9edd798e298b476","uuid":"7e6a17c046245cdf","updateTime":1792216188395,"version":"1792216188395","editVersion":"4.1.71","user":{}}|
+{"type":"META","ticket":11700,"id":"META"}||{"title":"Carrier-A01","source":"","board":"39c3200c500098e5","zIndex":null}|
+{"type":"RULE","ticket":2689,"id":"[\"RULE\",\"TRACK\",\"copperThickness1oz\"]"}||{"ruleState":"DEFAULT","ruleContext":{"unit":"mm","track":{"isOpen":true,"content":[{"layerId":1,"stroDef":0.254,"stroMax":2.54,"stroMin":0.127}]}}}|
+{"type":"RULE","ticket":2690,"id":"[\"RULE\",\"TRACK\",\"copperThickness2oz\"]"}||{"ruleState":"NORMAL","ruleContext":{"unit":"mm","track":{"isOpen":true,"content":[{"layerId":1,"stroDef":0.254,"stroMax":2.54,"stroMin":0.203}]}}}
